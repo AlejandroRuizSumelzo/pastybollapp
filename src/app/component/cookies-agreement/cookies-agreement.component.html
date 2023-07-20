@@ -1,0 +1,40 @@
+<div
+  class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5"
+  *ngIf="showCookieModal"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="exampleModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Aviso de cookies</h5>
+        <button
+          type="button"
+          class="close"
+          aria-label="Close"
+          (click)="rejectCookies()"
+        >
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>
+          Utilizamos cookies para mejorar tu experiencia en nuestro sitio web.
+        </p>
+        <p>Aceptar cookies:</p>
+        <button type="button" class="btn btn-primary" (click)="acceptCookies()">
+          Aceptar
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary"
+          (click)="rejectCookies()"
+        >
+          Rechazar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

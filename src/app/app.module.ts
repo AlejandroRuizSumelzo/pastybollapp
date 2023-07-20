@@ -11,6 +11,8 @@ import { CompanyComponent } from './pages/company/company.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { NewsComponent } from './pages/news/news.component';
 import { HomeComponent } from './pages/home/home.component';
+import { CookiesAgreementComponent } from './component/cookies-agreement/cookies-agreement.component';
+
 
 @NgModule({
   declarations: [
@@ -21,7 +23,8 @@ import { HomeComponent } from './pages/home/home.component';
     CompanyComponent,
     ProductsComponent,
     NewsComponent,
-    HomeComponent
+    HomeComponent,
+    CookiesAgreementComponent
   ],
   imports: [
     BrowserModule,
