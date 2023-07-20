@@ -10,6 +10,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { CompanyComponent } from './pages/company/company.component';
 import { ProductsComponent } from './pages/products/products.component';
 import { NewsComponent } from './pages/news/news.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NewsComponent } from './pages/news/news.component';
     ContactComponent,
     CompanyComponent,
     ProductsComponent,
-    NewsComponent
+    NewsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
