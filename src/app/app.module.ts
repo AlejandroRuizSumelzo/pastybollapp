@@ -12,6 +12,7 @@ import { ProductsComponent } from './pages/products/products.component';
 import { NewsComponent } from './pages/news/news.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CookiesAgreementComponent } from './component/cookies-agreement/cookies-agreement.component';
+import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { CookiesAgreementComponent } from './component/cookies-agreement/cookies
     ProductsComponent,
     NewsComponent,
     HomeComponent,
-    CookiesAgreementComponent
+    CookiesAgreementComponent,
+    CookiesPolicyComponent
   ],
   imports: [
     BrowserModule,
