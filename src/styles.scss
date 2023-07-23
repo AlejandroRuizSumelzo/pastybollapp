@@ -1,9 +1,159 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 
-.container{
-    padding-bottom: 7rem;
+.container {
+  padding-bottom: 7rem;
+}
+
+@font-face {
+  font-family: "Thin";
+  font-style: normal;
+  font-weight: 100;
+  src: url("/assets/fonts/Thin-100.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Thin";
+  font-style: italic;
+  font-weight: 100;
+  src: url("/assets/fonts/Thin-100-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ExtraLight";
+  font-style: normal;
+  font-weight: 200;
+  src: url("/assets/fonts/ExtraLight-200.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ExtraLight";
+  font-style: italic;
+  font-weight: 200;
+  src: url("/assets/fonts/ExtraLight-200-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/assets/fonts/Light-300.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Light";
+  font-style: italic;
+  font-weight: 300;
+  src: url("/assets/fonts/Light-300-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/Regular-400.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Regular";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/assets/fonts/Regular-400-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/assets/fonts/Medium-500.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Medium";
+  font-style: italic;
+  font-weight: 500;
+  src: url("/assets/fonts/Medium-500-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  src: url("/assets/fonts/SemiBold-600.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SemiBold";
+  font-style: italic;
+  font-weight: 600;
+  src: url("/assets/fonts/SemiBold-600-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/assets/fonts/Bold-700.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Bold";
+  font-style: italic;
+  font-weight: 700;
+  src: url("/assets/fonts/Bold-700-Italic.ttf") format("truetype");
+}
+
+// Estilos para los encabezados
+h1 {
+  font-family: "Bold", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "SemiBold", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Medium", sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+}
+
+h5 {
+  font-family: "Light", sans-serif;
+  font-weight: 300;
+}
+
+h6 {
+  font-family: "Thin", sans-serif;
+  font-weight: 100;
+}
+
+body {
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+}
+
+span {
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
+}
+
+ul,
+ol {
+  font-family: "Regular", sans-serif;
+  font-weight: 400;
 }
