@@ -13,6 +13,7 @@ import { NewsComponent } from './pages/news/news.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CookiesAgreementComponent } from './component/cookies-agreement/cookies-agreement.component';
 import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.component';
+import { CarouselComponent } from './component/carousel/carousel.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.co
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    CarouselComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
