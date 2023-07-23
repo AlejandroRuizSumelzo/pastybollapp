@@ -8,152 +8,159 @@
   padding-bottom: 7rem;
 }
 
+/* @font-face para IBMPlexSans - Thin 100 */
 @font-face {
-  font-family: "Thin";
-  font-style: normal;
+  font-family: "IBMPlexSans-Thin";
   font-weight: 100;
-  src: url("/assets/fonts/Thin-100.ttf") format("truetype");
+  src: url("/assets/fonts/IBMPlexSans-Thin.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - Thin 100 Italic */
 @font-face {
-  font-family: "Thin";
-  font-style: italic;
+  font-family: "IBMPlexSans-ThinItalic";
   font-weight: 100;
-  src: url("/assets/fonts/Thin-100-Italic.ttf") format("truetype");
+  font-style: italic;
+  src: url("/assets/fonts/IBMPlexSans-ThinItalic.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - ExtraLight 200 */
 @font-face {
-  font-family: "ExtraLight";
-  font-style: normal;
+  font-family: "IBMPlexSans-ExtraLight";
   font-weight: 200;
-  src: url("/assets/fonts/ExtraLight-200.ttf") format("truetype");
+  src: url("/assets/fonts/IBMPlexSans-ExtraLight.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - ExtraLight 200 Italic */
 @font-face {
-  font-family: "ExtraLight";
-  font-style: italic;
+  font-family: "IBMPlexSans-ExtraLightItalic";
   font-weight: 200;
-  src: url("/assets/fonts/ExtraLight-200-Italic.ttf") format("truetype");
+  font-style: italic;
+  src: url("/assets/fonts/IBMPlexSans-ExtraLightItalic.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - Light 300 */
 @font-face {
-  font-family: "Light";
-  font-style: normal;
+  font-family: "IBMPlexSans-Light";
   font-weight: 300;
-  src: url("/assets/fonts/Light-300.ttf") format("truetype");
+  src: url("/assets/fonts/IBMPlexSans-Light.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - Light 300 Italic */
 @font-face {
-  font-family: "Light";
-  font-style: italic;
+  font-family: "IBMPlexSans-LightItalic";
   font-weight: 300;
-  src: url("/assets/fonts/Light-300-Italic.ttf") format("truetype");
+  font-style: italic;
+  src: url("/assets/fonts/IBMPlexSans-LightItalic.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - Regular 400 */
 @font-face {
-  font-family: "Regular";
-  font-style: normal;
+  font-family: "IBMPlexSans-Regular";
   font-weight: 400;
-  src: url("/assets/fonts/Regular-400.ttf") format("truetype");
+  src: url("/assets/fonts/IBMPlexSans-Regular.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - Regular 400 Italic */
 @font-face {
-  font-family: "Regular";
-  font-style: italic;
+  font-family: "IBMPlexSans-Italic";
   font-weight: 400;
-  src: url("/assets/fonts/Regular-400-Italic.ttf") format("truetype");
+  font-style: italic;
+  src: url("/assets/fonts/IBMPlexSans-Italic.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - Medium 500 */
 @font-face {
-  font-family: "Medium";
-  font-style: normal;
+  font-family: "IBMPlexSans-Medium";
   font-weight: 500;
-  src: url("/assets/fonts/Medium-500.ttf") format("truetype");
+  src: url("/assets/fonts/IBMPlexSans-Medium.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - Medium 500 Italic */
 @font-face {
-  font-family: "Medium";
-  font-style: italic;
+  font-family: "IBMPlexSans-MediumItalic";
   font-weight: 500;
-  src: url("/assets/fonts/Medium-500-Italic.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SemiBold";
-  font-style: normal;
-  font-weight: 600;
-  src: url("/assets/fonts/SemiBold-600.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "SemiBold";
   font-style: italic;
+  src: url("/assets/fonts/IBMPlexSans-MediumItalic.ttf") format("truetype");
+}
+
+/* @font-face para IBMPlexSans - SemiBold 600 */
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
   font-weight: 600;
-  src: url("/assets/fonts/SemiBold-600-Italic.ttf") format("truetype");
+  src: url("/assets/fonts/IBMPlexSans-SemiBold.ttf") format("truetype");
 }
 
+/* @font-face para IBMPlexSans - SemiBold 600 Italic */
 @font-face {
-  font-family: "Bold";
-  font-style: normal;
-  font-weight: 700;
-  src: url("/assets/fonts/Bold-700.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Bold";
+  font-family: "IBMPlexSans-SemiBoldItalic";
+  font-weight: 600;
   font-style: italic;
-  font-weight: 700;
-  src: url("/assets/fonts/Bold-700-Italic.ttf") format("truetype");
+  src: url("/assets/fonts/IBMPlexSans-SemiBoldItalic.ttf") format("truetype");
 }
 
-// Estilos para los encabezados
+@font-face {
+  font-family: "IBMPlexSans-Bold";
+  font-weight: bold;
+  src: url("/assets/fonts/IBMPlexSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans-BoldItalic";
+  font-style: italic;
+  font-weight: bold;
+  src: url("/assets/fonts/IBMPlexSans-BoldItalic.ttf") format("truetype");
+}
+
 h1 {
-  font-family: "Bold", sans-serif;
+  font-family: "IBMPlexSans-BoldItalic", sans-serif;
+  font-weight: bold;
+  font-style: italic;
   font-weight: 700;
 }
 
 h2 {
-  font-family: "SemiBold", sans-serif;
+  font-family: "IBMPlexSans-SemiBoldItalic", sans-serif;
+  font-style: italic;
   font-weight: 600;
 }
 
 h3 {
-  font-family: "Medium", sans-serif;
+  font-family: "IBMPlexSans-Medium", sans-serif;
   font-weight: 500;
 }
 
 h4 {
-  font-family: "Regular", sans-serif;
+  font-family: "IBMPlexSans-Regular", sans-serif;
   font-weight: 400;
 }
 
 h5 {
-  font-family: "Light", sans-serif;
+  font-family: "IBMPlexSans-Light", sans-serif;
   font-weight: 300;
 }
 
 h6 {
-  font-family: "Thin", sans-serif;
+  font-family: "IBMPlexSans-Thin", sans-serif;
   font-weight: 100;
 }
 
 body {
-  font-family: "Regular", sans-serif;
+  font-family: "IBMPlexSans-Regular", sans-serif;
   font-weight: 400;
 }
 
 p {
-  font-family: "Regular", sans-serif;
+  font-family: "IBMPlexSans-Regular", sans-serif;
   font-weight: 400;
 }
 
 span {
-  font-family: "Regular", sans-serif;
+  font-family: "IBMPlexSans-Regular", sans-serif;
   font-weight: 400;
 }
 
 ul,
 ol {
-  font-family: "Regular", sans-serif;
+  font-family: "IBMPlexSans-Regular", sans-serif;
   font-weight: 400;
 }

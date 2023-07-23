@@ -10,5 +10,11 @@ import { NgIf } from '@angular/common';
   styleUrls: ['./carousel.component.scss'],
 })
 export class CarouselComponent {
-  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/900/500`);
+  images: string[] = [];
+  
+  constructor() {
+    this.images[0] = "../../../assets/img/frida_logo.png";
+    this.images[1] = "../../../assets/img/frida_logo.png"; // Agrega la ruta de la imagen 1 aquí
+    this.images[2] = "../../../assets/img/frida_logo.png"; // Agrega la ruta de la imagen 2 aquí
+  }
 }

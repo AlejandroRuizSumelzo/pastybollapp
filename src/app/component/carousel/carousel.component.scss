@@ -1,3 +1,15 @@
+/* Estilos para el carrusel más pequeño (carousel-sm) */
 .carousel-container {
-  margin-top: 5rem;
+  margin-top: 3rem;
+}
+
+.carousel-sm {
+  max-width: 320px; /* Ancho ajustado a 290px */
+  max-height: 150px; /* Altura ajustada a 120px */
+}
+
+/* Estilos adicionales para las imágenes dentro del carrusel */
+.carousel-sm .picsum-img-wrapper img {
+  max-width: 100%; /* Ajustar las imágenes al ancho del contenedor */
+  max-height: 100%; /* Altura ajustada a 120px */
 }
