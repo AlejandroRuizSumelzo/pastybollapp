@@ -14,6 +14,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { CookiesAgreementComponent } from './component/cookies-agreement/cookies-agreement.component';
 import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.component';
 import { CarouselComponent } from './component/carousel/carousel.component';
+import { LegalWarningComponent } from './pages/legal-warning/legal-warning.component';
+import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { CarouselComponent } from './component/carousel/carousel.component';
     NewsComponent,
     HomeComponent,
     CookiesAgreementComponent,
-    CookiesPolicyComponent
+    CookiesPolicyComponent,
+    LegalWarningComponent,
+    PrivacyPolicyComponent
   ],
   imports: [
     BrowserModule,

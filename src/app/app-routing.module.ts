@@ -6,6 +6,8 @@ import { ProductsComponent } from './pages/products/products.component';
 import { CompanyComponent } from './pages/company/company.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.component';
+import { LegalWarningComponent } from './pages/legal-warning/legal-warning.component';
+import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,11 +16,13 @@ const routes: Routes = [
   { path: 'products', component: ProductsComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'news', component: NewsComponent },
-  { path: 'cookies-politica', component: CookiesPolicyComponent }
+  { path: 'cookies-politica', component: CookiesPolicyComponent },
+  { path: 'aviso-legal', component: LegalWarningComponent },
+  { path: 'politica-privacidad', component: PrivacyPolicyComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

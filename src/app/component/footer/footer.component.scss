@@ -1,3 +1,23 @@
 footer {
   padding: 20px;
 }
+
+a.text-body-secondary {
+  text-decoration: none;
+  &:hover {
+    color: #cb6015 !important; // Set the hover color to red
+  }
+}
+
+a:hover {
+  color: black;
+}
+
+.icon-color {
+  color: #cb6015;
+}
+
+.nav {
+  --bs-nav-link-color: #000000;
+  --bs-nav-link-hover-color: #cb6015;
+}
