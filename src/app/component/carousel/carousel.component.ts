@@ -14,7 +14,7 @@ export class CarouselComponent {
   
   constructor() {
     this.images[0] = "../../../assets/img/home_carousel/europastry_logo.png";
-    this.images[1] = "../../../assets/img/home_carousel/okin_logo.png"; // Agrega la ruta de la imagen 1 aquí
-    this.images[2] = "../../../assets/img/home_carousel/frida_logo.png"; // Agrega la ruta de la imagen 2 aquí
+    this.images[1] = "../../../assets/img/home_carousel/okin_logo.png";
+    this.images[2] = "../../../assets/img/home_carousel/frida_logo.png";
   }
 }

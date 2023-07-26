@@ -1,3 +1,17 @@
+.container{
+  margin-bottom: 5rem;
+}
+
 .card {
   border: none;
+}
+
+.line {
+  position: absolute;
+  top: 8rem;
+  left: 50%; /* Centra la línea horizontalmente */
+  height: 50%;
+  width: 0.2rem; /* Ancho de la línea vertical */
+  background-color: #cb6015; /* Color de la línea */
+  transform: translateX(-50%); /* Centra la línea respecto al contenedor */
 }
