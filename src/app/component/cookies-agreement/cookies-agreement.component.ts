@@ -13,7 +13,7 @@ export class CookiesAgreementComponent implements OnInit {
 
   ngOnInit(): void {
     this.showCookieModal = !this.cookieService.hasUserAcceptedCookies();
-    console.log("modal",this.showCookieModal);
+    console.log('modal', this.showCookieModal);
   }
 
   acceptCookies() {

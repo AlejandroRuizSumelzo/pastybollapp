@@ -1,9 +1,5 @@
 @import 'material-symbols';
 
-.container {
-  padding-bottom: 7rem;
-}
-
 /* @font-face para IBMPlexSans - Thin 100 */
 @font-face {
   font-family: "IBMPlexSans-Thin";
@@ -164,4 +160,5 @@ ol {
 .container {
   max-width: 1070px;
   margin: 0 auto;
+  padding-bottom: 7rem;
 }

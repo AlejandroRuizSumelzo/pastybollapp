@@ -1,3 +1,4 @@
+<!--
 <div
   class="modal modal-sheet position-fixed d-block bg-body-secondary bg-opacity-50 p-4 py-md-5 fixed-bottom fixed-right"
   *ngIf="showCookieModal"
@@ -51,6 +52,45 @@
           >
         </p>
       </div>
+    </div>
+  </div>
+</div>
+-->
+<div *ngIf="showCookieModal" class="cookie-consent-banner">
+  <div class="cookie-consent-banner__inner">
+    <div class="cookie-consent-banner__copy">
+      <div class="cookie-consent-banner__header">
+        <h3>PASTYBOLL UTILIZA COOKIES</h3>
+      </div>
+      <div class="cookie-consent-banner__description">
+        <p>
+          Utilizamos cookies en nuestro sitio web para brindarle la experiencia
+          más relevante al recordar sus preferencias y repetir visitas. Al hacer
+          clic en "Aceptar", usted acepta el uso de las cookies explícitamente.
+        </p>
+        <p>
+          Visite la política de cookies para obtener más información sobre las
+          cookies utilizadas en nuestro sitio web.
+          <a
+            class="cookie-consent-banner__more-info"
+            [routerLink]="['/cookies-politica']"
+            >Más info</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="cookie-consent-banner__actions">
+      <button (click)="acceptCookies()" class="cookie-consent-banner__cta">
+        Aceptar
+      </button>
+
+      <button
+        (click)="rejectCookies()"
+        class="cookie-consent-banner__cta cookie-consent-banner__cta--secondary"
+      >
+        Rechazar
+      </button>
     </div>
   </div>
 </div>
