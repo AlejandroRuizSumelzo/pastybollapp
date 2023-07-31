@@ -1,8 +1,39 @@
-.nav-pills {
-  --bs-nav-pills-link-active-bg: #cb6015; /* Cambia el color de fondo a tu preferencia (naranja en este caso) */
+/* Color: #cb6015 */
+header {
+  margin-bottom: 5rem;
 }
 
-.nav {
-  --bs-nav-link-color: #000000;
-  --bs-nav-link-hover-color: #cb6015;
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  margin-left: auto;
+  display: flex;
+}
+
+.nav-item {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.nav-link.active {
+  background-color: #cb6015;
+  color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.nav-link {
+  margin: 1rem;
+  color: black;
+  text-decoration: none;
 }

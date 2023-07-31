@@ -1,14 +1,9 @@
-<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-  <a
-    href="/"
-    class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-  >
-    <span class="fs-4">Pastyboll</span>
-  </a>
+<header class="site-header">
+  <div class="wrapper site-header__wrapper">
+    <a class="brand">Pastyboll</a>
 
-  <div class="mx-5">
-    <ul class="nav nav-pills">
-      <li class="nav-item">
+    <div class="nav-container">
+      <nav class="nav-item">
         <a
           routerLink="/home"
           [ngClass]="{
@@ -18,8 +13,8 @@
           class="nav-link"
           >Inicio</a
         >
-      </li>
-      <li class="nav-item">
+      </nav>
+      <nav class="nav-item">
         <a
           routerLink="/company"
           [ngClass]="{
@@ -29,9 +24,9 @@
           class="nav-link"
           >Nosotros</a
         >
-      </li>
-      <li class="nav-item"><a href="#" class="nav-link">Vimeo</a></li>
-      <li class="nav-item">
+      </nav>
+      <nav class="nav-item"><a href="#" class="nav-link">Vimeo</a></nav>
+      <nav class="nav-item">
         <a
           routerLink="/products"
           [ngClass]="{
@@ -41,8 +36,8 @@
           class="nav-link"
           >Productos</a
         >
-      </li>
-      <li class="nav-item">
+      </nav>
+      <nav class="nav-item">
         <a
           routerLink="/contact"
           [ngClass]="{
@@ -52,8 +47,8 @@
           class="nav-link"
           >Contacto</a
         >
-      </li>
-      <li class="nav-item">
+      </nav>
+      <nav class="nav-item">
         <a
           routerLink="/news"
           [ngClass]="{
@@ -63,7 +58,7 @@
           class="nav-link"
           >Noticias</a
         >
-      </li>
-    </ul>
+      </nav>
+    </div>
   </div>
 </header>

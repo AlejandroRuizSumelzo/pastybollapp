@@ -1,18 +1,78 @@
-.card {
-  border: none;
+.home__first-title {
+  text-align: center;
+  margin-bottom: 5rem;
 }
 
-.card-body {
+.home__first-title p {
+  margin: 0.5rem;
+}
+
+.home__cards {
+  display: flex;
+  justify-content: center;
+}
+
+.home__card-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 100%;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
-.card-title,
-.fs-1 {
-  margin: 0; /* Eliminar el margen para evitar espacios innecesarios */
+.home__card-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.home__card-title-client {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.material-symbols-outlined {
+  font-size: 2.5rem;
+  color:  #cb6015;
+}
+
+.home__card-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.home__line {
+  max-width: 1070px;/* Ancho de la línea */
+  position: relative;
+	margin-top: 3rem;
+	height: 1px;
+}
+
+.home__transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, #cb6015, transparent);
+}
+
+.home__arrow-down:after
+{
+	content: "";
+	position: absolute;
+	z-index: 1;
+	top: -7px;
+	left: calc(50% - 7px);
+	width: 14px;
+	height: 14px;
+	transform: rotate(45deg);
+	background-color: white;
+	border-bottom: 1px solid #cb6015;
+	border-right: 1px solid #cb6015;
 }
 
 .img-fluid {
@@ -20,6 +80,6 @@
   height: 25%;
 }
 
-.row-icons{
+.row-icons {
   margin-top: 7rem;
 }
