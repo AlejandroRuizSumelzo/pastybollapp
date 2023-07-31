@@ -1,4 +1,4 @@
-.container{
+.container {
   margin-bottom: 5rem;
 }
 
@@ -14,4 +14,14 @@
   width: 0.2rem; /* Ancho de la línea vertical */
   background-color: #cb6015; /* Color de la línea */
   transform: translateX(-50%); /* Centra la línea respecto al contenedor */
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+}
+
+// Media query para móviles (menores de 576px)
+@media (max-width: 575px) {
+  .line {
+    display: none;
+  }
 }
