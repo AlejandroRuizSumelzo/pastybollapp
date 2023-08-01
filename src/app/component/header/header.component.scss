@@ -3,6 +3,17 @@ header {
   margin-bottom: 5rem;
 }
 
+.header__pastybol-logo {
+  width: 7%;
+  height: 7%;
+}
+
+.header__pastybol-title {
+  width: 22%;
+  height: 100%;
+  margin-left: 2rem;
+}
+
 .site-header__wrapper {
   display: flex;
   justify-content: space-between;
