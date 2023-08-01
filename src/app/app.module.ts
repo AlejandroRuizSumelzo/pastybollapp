@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { HeaderComponent } from './component/header/header.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+
 import { ContactComponent } from './pages/contact/contact.component';
 import { CompanyComponent } from './pages/company/company.component';
 import { ProductsComponent } from './pages/products/products.component';
@@ -13,10 +13,10 @@ import { NewsComponent } from './pages/news/news.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CookiesAgreementComponent } from './component/cookies-agreement/cookies-agreement.component';
 import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CarouselComponent } from './component/carousel/carousel.component';
 import { LegalWarningComponent } from './pages/legal-warning/legal-warning.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
-
 
 @NgModule({
   declarations: [
@@ -31,15 +31,10 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     CookiesAgreementComponent,
     CookiesPolicyComponent,
     LegalWarningComponent,
-    PrivacyPolicyComponent
+    PrivacyPolicyComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    NgbModule,
-    CarouselComponent
-  ],
+  imports: [BrowserModule, AppRoutingModule, CarouselModule, CarouselComponent],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,19 +1,11 @@
-<div class="row justify-content-center">
-    <ngb-carousel *ngIf="images" class="carousel-container carousel-dark carousel-sm mx-auto">
-      <ng-template ngbSlide>
-        <div class="picsum-img-wrapper d-flex justify-content-center">
-          <img [src]="images[0]" alt="Europastry-logo" />
-        </div>
-      </ng-template>
-      <ng-template ngbSlide>
-        <div class="picsum-img-wrapper d-flex justify-content-center">
-          <img [src]="images[1]" alt="Okin-logo" />
-        </div>
-      </ng-template>
-      <ng-template ngbSlide>
-        <div class="picsum-img-wrapper d-flex justify-content-center">
-          <img [src]="images[2]" alt="Frida-logo" />
-        </div>
-      </ng-template>
-    </ngb-carousel>
-</div>
+<owl-carousel-o *ngIf="images" [options]="customOptions" class="carousel__container">
+  <ng-template carouselSlide
+    ><img class="carousel__image" [src]="images[0]"
+  /></ng-template>
+  <ng-template carouselSlide
+    ><img class="carousel__image" [src]="images[1]"
+  /></ng-template>
+  <ng-template carouselSlide
+    ><img class="carousel__image" [src]="images[2]"
+  /></ng-template>
+</owl-carousel-o>
