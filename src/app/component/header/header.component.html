@@ -1,5 +1,5 @@
 <header class="site-header">
-  <div class="wrapper site-header__wrapper">
+  <div class="header__wrapper header__site">
     <img
       src="../../../assets/img/logo/logo_pastyboll.png"
       class="header__pastybol-logo"
@@ -11,60 +11,60 @@
       alt="Pastyboll title"
     />
 
-    <div class="nav-container">
-      <nav class="nav-item">
+    <div class="header__nav-container">
+      <nav class="header__nav-item">
         <a
           routerLink="/home"
           [ngClass]="{
             'nav-link': true,
             active: navigationService.activeLink === '/home'
           }"
-          class="nav-link"
+          class="header__nav-link"
           >Inicio</a
         >
       </nav>
-      <nav class="nav-item">
+      <nav class="header__nav-item">
         <a
           routerLink="/company"
           [ngClass]="{
             'nav-link': true,
             active: navigationService.activeLink === '/company'
           }"
-          class="nav-link"
+          class="header__nav-link"
           >Nosotros</a
         >
       </nav>
-      <nav class="nav-item"><a href="#" class="nav-link">Vimeo</a></nav>
-      <nav class="nav-item">
+      <nav class="header__nav-item"><a href="#" class="header__nav-link">Vimeo</a></nav>
+      <nav class="header__nav-item">
         <a
           routerLink="/products"
           [ngClass]="{
             'nav-link': true,
             active: navigationService.activeLink === '/products'
           }"
-          class="nav-link"
+          class="header__nav-link"
           >Productos</a
         >
       </nav>
-      <nav class="nav-item">
+      <nav class="header__nav-item">
         <a
           routerLink="/contact"
           [ngClass]="{
             'nav-link': true,
             active: navigationService.activeLink === '/contact'
           }"
-          class="nav-link"
+          class="header__nav-link"
           >Contacto</a
         >
       </nav>
-      <nav class="nav-item">
+      <nav class="header__nav-item">
         <a
           routerLink="/news"
           [ngClass]="{
             'nav-link': true,
             active: navigationService.activeLink === '/news'
           }"
-          class="nav-link"
+          class="header__nav-link"
           >Noticias</a
         >
       </nav>

@@ -14,40 +14,40 @@ header {
   margin-left: 2rem;
 }
 
-.site-header__wrapper {
+.header__site {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.wrapper {
+.header__wrapper {
   max-width: 1170px;
   margin: 0 auto;
   margin-bottom: 1rem;
 }
 
-.nav-container {
+.header__nav-container {
   margin-left: auto;
   display: flex;
 }
 
-.nav-item {
+.header__nav-item {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
 }
 
-.nav-link.active {
+.header__nav-link {
+  margin: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+.header__nav-link.active {
   background-color: #cb6015;
   color: white;
   border-radius: 1rem;
   padding: 1rem;
-}
-
-.nav-link {
-  margin: 1rem;
-  color: black;
-  text-decoration: none;
 }
 
 .header__divider {
@@ -55,7 +55,100 @@ header {
   display: flex;
   justify-content: center;
   height: 2px;
-  width: 90%;
+  width: 80%;
   background: blue;
   background: linear-gradient(90deg, #cb6015, #e6cfbe, #cb6015);
+}
+
+@media (min-width: 315px) and (max-width: 375px) {
+  .header__pastybol-logo {
+    width: 25%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 11rem;
+  }
+
+  .header__pastybol-title {
+    display: none;
+  }
+
+  .header__nav-container {
+    margin-left: 0.3rem;
+    margin-right: 0.5rem;
+  }
+
+  .header__nav-link {
+    margin: 0.4rem;
+  }
+
+  .header__nav-link.active {
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+  }
+
+  .header__divider {
+    margin-left: 5rem;
+    width: 80%;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+  .header__pastybol-logo {
+    width: 27%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 12rem;
+  }
+
+  .header__pastybol-title {
+    display: none;
+  }
+
+  .header__nav-container {
+    margin-left: 1rem;
+    margin-right: auto;
+  }
+
+  .header__nav-link {
+    margin: 0.4rem;
+  }
+
+  .header__nav-link.active {
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+  }
+
+  .header__divider {
+    margin-left: 5rem;
+    width: 80%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header__pastybol-logo {
+    display: none;
+  }
+
+  .header__pastybol-title {
+    width: 15%;
+  }
+
+  .header__nav-link.active {
+    padding: 0.8rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .header__pastybol-logo {
+    margin-left: 3rem;
+  }
+
+  .header__nav-container {
+    margin-right: 2rem;
+  }
 }
