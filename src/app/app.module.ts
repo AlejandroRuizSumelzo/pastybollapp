@@ -15,6 +15,7 @@ import { CookiesAgreementComponent } from './component/cookies-agreement/cookies
 import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.component';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { CarouselComponent } from './component/carousel/carousel.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LegalWarningComponent } from './pages/legal-warning/legal-warning.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 
@@ -33,7 +34,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     LegalWarningComponent,
     PrivacyPolicyComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, CarouselModule, CarouselComponent],
+  imports: [BrowserModule, AppRoutingModule, CarouselModule, CarouselComponent, BrowserAnimationsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
