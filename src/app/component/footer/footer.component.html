@@ -1,57 +1,46 @@
-<footer
-  class="footer d-flex flex-wrap justify-content-between align-items-center border-top"
->
-  <div class="col-md-2 d-flex justify-content-start">
-    <p class="flex-grow-1 text-left">
-      <a routerLink="/home" class="mb-3 mb-md-0 text-body-secondary"
-        >© {{ currentYear }} Pastyboll S.L.</a
-      >
+<footer>
+  <div>
+    <p>
+      <a routerLink="/home">© {{ currentYear }} Pastyboll S.L.</a>
     </p>
   </div>
 
-  <div class="col-md-2 d-flex justify-content-start">
-    <p class="flex-grow-1 text-left">
-      <a routerLink="/aviso-legal" class="mb-3 mb-md-0 text-body-secondary"
-        >Aviso Legal</a
-      >
+  <div>
+    <p>
+      <a routerLink="/aviso-legal">Aviso Legal</a>
     </p>
   </div>
 
-  <div class="col-md-2 d-flex">
-    <p class="flex-grow-1 text-left">
-      <a
-        routerLink="/politica-privacidad"
-        class="mb-3 mb-md-0 text-body-secondary"
-        >Política de Privacidad</a
-      >
+  <div>
+    <p>
+      <a routerLink="/politica-privacidad">Política de Privacidad</a>
     </p>
   </div>
 
-  <div class="col-md-3 d-flex">
-    <p class="flex-grow-1 text-left">
+  <div>
+    <p>
       <a
         href="../../../assets/pdf/CONDICIONES-GENERALES-DE-VENTA-PASTYBOLL-.pdf"
         target="_blank"
-        class="mb-3 mb-md-0 text-body-secondary"
       >
         Condiciones generales de venta
       </a>
     </p>
   </div>
 
-  <ul class="nav col-md-1 justify-content-end list-unstyled d-flex">
-    <li class="fs-2 ms-3">
-      <a class="icon-color" href="https://wa.me/34620726233" target="_blank">
-        <i class="bi bi-whatsapp"></i>
+  <ul>
+    <li>
+      <a class="footer_icon" href="https://wa.me/34620726233" target="_blank">
+        <fa-icon [icon]="['fab', 'whatsapp']"></fa-icon>
       </a>
     </li>
-    <li class="fs-2 ms-3">
+    <li>
       <a
-        class="icon-color"
+        class="footer_icon"
         href="https://www.instagram.com/pastybollzaragoza/?hl=es"
         target="_blank"
       >
-        <i class="bi bi-instagram"></i>
+      <fa-icon [icon]="['fab', 'instagram']"></fa-icon>
       </a>
     </li>
   </ul>

@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { HeaderComponent } from './component/header/header.component';
 
 import { ContactComponent } from './pages/contact/contact.component';
@@ -34,7 +35,14 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     LegalWarningComponent,
     PrivacyPolicyComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, CarouselModule, CarouselComponent, BrowserAnimationsModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    CarouselModule,
+    CarouselComponent,
+    BrowserAnimationsModule,
+    FontAwesomeModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
