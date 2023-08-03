@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 import { NavigationService } from 'src/app/services/navigation.service';
 
 @Component({
@@ -6,6 +7,23 @@ import { NavigationService } from 'src/app/services/navigation.service';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss'],
 })
-export class HeaderComponent {
-  constructor(public navigationService: NavigationService) {}
+export class HeaderComponent implements OnInit {
+  menuActive: boolean = false;
+
+  constructor(
+    private router: Router,
+    public navigationService: NavigationService
+  ) {}
+
+  ngOnInit(): void {
+    this.router.events.subscribe((event) => {
+      if (event instanceof NavigationEnd) {
+        this.menuActive = false;
+      }
+    });
+  }
+
+  toggleMenu(): void {
+    this.menuActive = !this.menuActive;
+  }
 }

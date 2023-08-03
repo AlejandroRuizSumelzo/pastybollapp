@@ -34,7 +34,6 @@
           >Nosotros</a
         >
       </nav>
-      <nav class="header__nav-item"><a href="#" class="header__nav-link">Vimeo</a></nav>
       <nav class="header__nav-item">
         <a
           routerLink="/products"
@@ -69,6 +68,20 @@
         >
       </nav>
     </div>
+    <!-- Hamburger icon -->
+    <div class="header__hamburger" (click)="toggleMenu()">
+      <div class="header__hamburger-line"></div>
+      <div class="header__hamburger-line"></div>
+      <div class="header__hamburger-line"></div>
+    </div>
   </div>
   <div class="header__divider"></div>
+  <!-- Menu items -->
+  <ul class="header__hamburger-menu" [class.active]="menuActive">
+    <li><a routerLink="/home">Inicio</a></li>
+    <li><a routerLink="/company">Nosotros</a></li>
+    <li><a routerLink="/products">Productos</a></li>
+    <li><a routerLink="/contact">Contacto</a></li>
+    <li><a routerLink="/news">Noticias</a></li>
+  </ul>
 </header>
