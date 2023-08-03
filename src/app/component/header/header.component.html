@@ -68,15 +68,19 @@
         >
       </nav>
     </div>
-    <!-- Hamburger icon -->
-    <div class="header__hamburger" (click)="toggleMenu()">
-      <div class="header__hamburger-line"></div>
-      <div class="header__hamburger-line"></div>
-      <div class="header__hamburger-line"></div>
+
+    <div
+      class="header__hamburger"
+      [class.active]="menuActive"
+      (click)="toggleMenu()"
+    >
+      <div class="header__hamburger-line line1"></div>
+      <div class="header__hamburger-line line2"></div>
+      <div class="header__hamburger-line line3"></div>
     </div>
   </div>
   <div class="header__divider"></div>
-  <!-- Menu items -->
+
   <ul class="header__hamburger-menu" [class.active]="menuActive">
     <li><a routerLink="/home">Inicio</a></li>
     <li><a routerLink="/company">Nosotros</a></li>
