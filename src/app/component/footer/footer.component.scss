@@ -1,3 +1,51 @@
-.footer_icon {
+.footer__container {
+  max-width: 1170px;
+}
+
+.footer__divider {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 2px;
+  width: 80%;
+  background: blue;
+  background: linear-gradient(90deg, #cb6015, #e6cfbe, #cb6015);
+}
+
+.footer__all-items {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.footer__company {
+  justify-content: flex-start;
+  margin-left: 3rem;
+  margin-right: 2rem;
+}
+
+.footer__legal-advise {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.footer__privacy-policy {
+  margin-right: 2rem;
+}
+
+.footer__icons-container {
+  justify-content: flex-end;
+}
+
+.footer__icons-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.footer__icon {
   color: #cb6015;
+  font-size: 48px;
+  margin-left: 2rem;
 }

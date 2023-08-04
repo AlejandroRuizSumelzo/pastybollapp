@@ -1,47 +1,52 @@
-<footer>
-  <div>
-    <p>
-      <a routerLink="/home">© {{ currentYear }} Pastyboll S.L.</a>
-    </p>
-  </div>
+<footer class="footer__container">
+  <div class="footer__divider"></div>
+  <div class="footer__all-items">
+    <div class="footer__company">
+      <p>
+        <a routerLink="/home">© {{ currentYear }} Pastyboll S.L.</a>
+      </p>
+    </div>
 
-  <div>
-    <p>
-      <a routerLink="/aviso-legal">Aviso Legal</a>
-    </p>
-  </div>
+    <div class="footer__legal-advise">
+      <p>
+        <a routerLink="/aviso-legal">Aviso Legal</a>
+      </p>
+    </div>
 
-  <div>
-    <p>
-      <a routerLink="/politica-privacidad">Política de Privacidad</a>
-    </p>
-  </div>
+    <div class="footer__privacy-policy">
+      <p>
+        <a routerLink="/politica-privacidad">Política de Privacidad</a>
+      </p>
+    </div>
 
-  <div>
-    <p>
-      <a
-        href="../../../assets/pdf/CONDICIONES-GENERALES-DE-VENTA-PASTYBOLL-.pdf"
-        target="_blank"
-      >
-        Condiciones generales de venta
-      </a>
-    </p>
-  </div>
+    <div>
+      <p>
+        <a
+          href="../../../assets/pdf/CONDICIONES-GENERALES-DE-VENTA-PASTYBOLL-.pdf"
+          target="_blank"
+        >
+          Condiciones generales de venta
+        </a>
+      </p>
+    </div>
 
-  <ul>
-    <li>
-      <a class="footer_icon" href="https://wa.me/34620726233" target="_blank">
-        <fa-icon [icon]="['fab', 'whatsapp']"></fa-icon>
-      </a>
-    </li>
-    <li>
-      <a
-        class="footer_icon"
-        href="https://www.instagram.com/pastybollzaragoza/?hl=es"
-        target="_blank"
-      >
-      <fa-icon [icon]="['fab', 'instagram']"></fa-icon>
-      </a>
-    </li>
-  </ul>
+    <div class="footer__icons-container">
+    <ul class="footer__icons-list">
+      <li>
+        <a class="footer__icon" href="https://wa.me/34620726233" target="_blank">
+          <fa-icon [icon]="['fab', 'whatsapp']"></fa-icon>
+        </a>
+      </li>
+      <li>
+        <a
+          class="footer__icon"
+          href="https://www.instagram.com/pastybollzaragoza/?hl=es"
+          target="_blank"
+        >
+          <fa-icon [icon]="['fab', 'instagram']"></fa-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+  </div>
 </footer>
