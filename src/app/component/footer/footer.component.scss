@@ -1,28 +1,160 @@
-.footer__container {
-  max-width: 1170px;
-}
-
 .footer__divider {
   margin: 0 auto;
   display: flex;
   justify-content: center;
   height: 2px;
   width: 80%;
-  background: blue;
   background: linear-gradient(90deg, #cb6015, #e6cfbe, #cb6015);
+}
+
+.footer__left {
+  display: inline-grid;
+  width: 40%;
+}
+
+.footer__left-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.footer__pastybol-logo {
+  width: 20%;
+  height: 100%;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer__link-item {
+  margin-right: 5px;
+}
+
+.footer__links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 400;
+  text-decoration: none;
+  color: #000;
+}
+
+.footer__links a:before {
+  content: "|";
+  font-weight: 300;
+  font-size: 20px;
+  left: 0;
+  color: #000;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer__links .footer__link-item:before::first-line {
+  content: none;
+}
+
+.footer__company {
+  margin-left: 3rem;
+  margin-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .footer__company-text a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.footer__center {
+  width: 35%;
+  display: inline-grid;
+
+  .footer__center-info {
+    display: grid;
+  }
+
+  .footer__center-info-location,
+  .footer__center-info-phone,
+  .footer__center-info-mail {
+    display: inline-flex;
+    margin-top: 2rem;
+
+    .footer__center-info-location-icon,
+    .footer__center-info-phone-icon,
+    .footer__center-info-mail-icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #cb6015;
+      font-size: 1em;
+    }
+
+    .footer__center-info-mail-text a,
+    p {
+      margin-left: 3rem;
+      color: #000;
+      text-decoration: none;
+    }
+
+    .footer__center-info-phone-text a {
+      margin-left: 3rem;
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+}
+
+.footer__right {
+  width: 20%;
+  display: inline-grid;
+
+  .footer__right-about-us-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__right-about-us-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+
+  .footer__right-icons-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  .footer__right-icon {
+    color: #cb6015;
+    font-size: 2em;
+    margin: 1rem;
+  }
 }
 
 .footer__all-items {
   display: flex;
   flex-direction: row;
-  text-decoration: none;
-  margin: 1rem;
-}
+  flex-wrap: wrap;
+  justify-content: center;
 
-.footer__company {
-  justify-content: flex-start;
-  margin-left: 3rem;
-  margin-right: 2rem;
+  a[routerlink],
+  a[href] {
+    color: #000;
+  }
 }
 
 .footer__legal-advise {
@@ -34,18 +166,50 @@
   margin-right: 2rem;
 }
 
-.footer__icons-container {
-  justify-content: flex-end;
+@media (max-width: 768px) {
 }
 
-.footer__icons-list {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-}
+@media (max-width: 426px) {
+  .footer__left {
+    display: none;
+  }
 
-.footer__icon {
-  color: #cb6015;
-  font-size: 48px;
-  margin-left: 2rem;
+  .footer__center {
+    width: 100%;
+    display: inline-flex;
+    margin-left: 3rem;
+
+    .footer__center-info {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .footer__right {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    display: grid;
+
+    .footer__right-about-us-title,
+    .footer__right-about-us-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer__right-icons-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .footer__all-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+  }
 }
