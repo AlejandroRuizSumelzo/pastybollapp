@@ -1,0 +1,63 @@
+.company__intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.company__img {
+  margin-left: 5rem;
+  margin-right: 3rem;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #cb6015;
+    border-radius: 3px;
+    padding: 5px;
+  }
+}
+
+.company__text {
+  margin-right: 3rem;
+}
+
+.company__objetives {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.company__mision,
+.company__vision {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.company__values {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    margin-top: 2rem;
+
+    li {
+      margin-top: 2rem;
+    }
+  }
+}
