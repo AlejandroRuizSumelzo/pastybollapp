@@ -10,7 +10,6 @@ import { HeaderComponent } from './component/header/header.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { CompanyComponent } from './pages/company/company.component';
 import { ProductsComponent } from './pages/products/products.component';
-import { NewsComponent } from './pages/news/news.component';
 import { HomeComponent } from './pages/home/home.component';
 import { CookiesAgreementComponent } from './component/cookies-agreement/cookies-agreement.component';
 import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.component';
@@ -19,6 +18,7 @@ import { CarouselComponent } from './component/carousel/carousel.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LegalWarningComponent } from './pages/legal-warning/legal-warning.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
+import { BusinessComponent } from './pages/business/business.component';
 
 @NgModule({
   declarations: [
@@ -28,12 +28,13 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
     ContactComponent,
     CompanyComponent,
     ProductsComponent,
-    NewsComponent,
     HomeComponent,
+    BusinessComponent,
     CookiesAgreementComponent,
     CookiesPolicyComponent,
     LegalWarningComponent,
     PrivacyPolicyComponent,
+    BusinessComponent,
   ],
   imports: [
     BrowserModule,

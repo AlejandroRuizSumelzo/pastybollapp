@@ -132,17 +132,23 @@
     }
   }
 
-  .footer__right-icons-list {
+  .footer__right-icons-container {
     display: flex;
-    flex-direction: row;
-    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+    .footer__right-icons-list {
+      display: inline-flex;
+      list-style: none;
+
+      .footer__right-icon {
+        color: #cb6015;
+        font-size: 2em;
+        margin: 0.5rem;
+      }
+    }
   }
 
-  .footer__right-icon {
-    color: #cb6015;
-    font-size: 2em;
-    margin: 1rem;
-  }
 }
 
 .footer__all-items {
