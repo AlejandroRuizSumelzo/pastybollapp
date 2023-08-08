@@ -1,34 +1,59 @@
-<div class="">
-  <div class="">
-    <div class="">
-      <div class="">
-        <h2 class="">DATOS DE CONTACTO</h2>
-        <h4 class="">pastyboll@pastyboll.es</h4>
-        <h4 class="">976 65 65 74</h4>
-        <h4 class="">976 61 72 34</h4>
-        <h4 class="">620 72 62 33</h4>
-        <h4 class="">
-          Parque Tecnológico de Pinseque
-        </h4>
-        <h4 class="card-text text-center">Calle Sur, Nave 20</h4>
-        <h4 class="card-text text-center">Autovía A68, km.256</h4>
-        <h4 class="card-text text-center">50298, Pinseque, Zaragoza</h4>
+<div class="contact__container">
+  <div class="contact__info">
+    <div class="contact__header-data">
+      <h2 class="">DATOS DE CONTACTO</h2>
+    </div>
+    <div class="contact__email-info">
+      <div class="contact__info-mail-icon">
+        <fa-icon [icon]="faMail"></fa-icon>
+      </div>
+      <a [href]="'mailto:' + mail">pastyboll@pastyboll.es</a>
+    </div>
+    <hr class="contact__center-diamond" />
+    <div class="contact__phone-info">
+      <div class="contact__info-phone-icon">
+        <fa-icon [icon]="faPhone"></fa-icon>
+      </div>
+      <div class="contact__phone-info-number">
+        <a href="tel:+34976656574">976 65 65 74</a>
+        <a href="tel:+34976617234">976 61 72 34</a>
       </div>
     </div>
-    <div class="line"></div>
-    <div class="map-box card col-xl-6 col-sm-1">
-      <div class="card-body">
-        <h2 class="card-title text-center">UBICACIÓN DEL MAPA</h2>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11909.795418327421!2d-1.0609989!3d41.7324104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596561970b4deb%3A0xd7a8a686605c05c4!2sPastyboll!5e0!3m2!1ses!2ses!4v1689834790313!5m2!1ses!2ses"
-          width="100%"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
+    <hr class="contact__center-diamond" />
+    <div class="contact__phone-whatsapp-info">
+      <div class="contact__phone-whatsapp-info-icon">
+        <fa-icon [icon]="faWhatsapp"></fa-icon>
       </div>
+      <a href="https://wa.me/34620726233" target="_blank">620 72 62 33</a>
+    </div>
+    <hr class="contact__center-diamond" />
+    <div class="contact__location-info">
+      <div class="contact__location-info-icon">
+        <fa-icon [icon]="faMaps"></fa-icon>
+      </div>
+      <div class="contact__location-info-text">
+        <h4>Parque Tecnológico de Pinseque</h4>
+        <h4>Calle Sur, Nave 20</h4>
+        <h4>Autovía A68, km.256</h4>
+        <h4>50298, Pinseque, Zaragoza</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact__map">
+    <div class="contact__header-data">
+      <h2>UBICACIÓN DEL MAPA</h2>
+    </div>
+    <div class="contact__map-frame">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11909.795418327421!2d-1.0609989!3d41.7324104!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd596561970b4deb%3A0xd7a8a686605c05c4!2sPastyboll!5e0!3m2!1ses!2ses!4v1689834790313!5m2!1ses!2ses"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
   </div>
 </div>
