@@ -159,3 +159,22 @@ hr {
     margin-top: 3rem;
   }
 }
+
+@media (max-width: 426px) {
+  .contact__container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+  }
+
+  .contact__info {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+
+  .contact__map {
+    margin-left: 1.5rem;
+    margin-right: 0;
+  }
+}
