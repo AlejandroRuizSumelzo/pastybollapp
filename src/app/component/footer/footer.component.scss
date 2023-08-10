@@ -177,6 +177,10 @@
 }
 
 @media (max-width: 426px) {
+  .footer__container {
+    max-width: 320px;
+  }
+
   .footer__left {
     display: none;
   }
@@ -196,7 +200,8 @@
   .footer__right {
     width: 100%;
     margin-top: 2rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
     display: grid;
 
     .footer__right-about-us-title,
