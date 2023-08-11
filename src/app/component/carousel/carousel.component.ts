@@ -12,10 +12,10 @@ import { NgIf } from '@angular/common';
 export class CarouselComponent {
   customOptions: OwlOptions = {
     loop: true,
-    mouseDrag: false,
+    mouseDrag: true,
     touchDrag: false,
     pullDrag: false,
-    dots: false,
+    dots: true,
     navSpeed: 700,
     navText: ['', ''],
     responsive: {
@@ -32,7 +32,7 @@ export class CarouselComponent {
         items: 1
       }
     },
-    nav: true
+    nav: false
   }
   images: string[] = [];
   

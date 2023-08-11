@@ -46,7 +46,7 @@
 }
 
 .home__line {
-  max-width: 1070px; /* Ancho de la línea */
+  max-width: 1070px;
   position: relative;
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -83,14 +83,30 @@
   border-right: 1px solid #cb6015;
 }
 
+.home__img-landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .home__img-landing-item {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 50%;
+    height: 50%;
+  }
+}
+
 .home__row {
-  display: flex; /* Activa el modo Flexbox */
-  flex-wrap: wrap; /* Permite que los elementos se envuelvan en una nueva línea si el ancho no es suficiente */
+  display: flex;
+  flex-wrap: wrap;
   margin-top: 3rem;
 }
 
 .home__row-column {
-  flex: 1; /* Hace que ambas columnas tengan el mismo tamaño */
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 15px;
 
   .home__row-column-image {
