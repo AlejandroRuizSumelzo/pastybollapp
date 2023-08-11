@@ -156,6 +156,18 @@
     display: grid;
   }
 
+  .home__img-landing {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  
+    .home__img-landing-item {
+      width: 90%;
+      height: 90%;
+    }
+  }
+
   .home_arrow-divider-photos {
     display: flex;
   }

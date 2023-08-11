@@ -1,0 +1,33 @@
+.privacy-policy__container {
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  h1,
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+
+@media (max-width: 426px) {
+  .privacy-policy__container {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    p {
+      margin-left: 1.5%;
+      margin-right: 1.5%;
+    }
+  }
+}
