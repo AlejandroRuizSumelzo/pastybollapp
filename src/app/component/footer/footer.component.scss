@@ -85,30 +85,30 @@
   .footer__center-info-mail {
     display: inline-flex;
     margin-top: 2rem;
+  }
 
-    .footer__center-info-location-icon,
-    .footer__center-info-phone-icon,
-    .footer__center-info-mail-icon {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #cb6015;
-      font-size: 1em;
-    }
+  .footer__center-info-location-icon,
+  .footer__center-info-phone-icon,
+  .footer__center-info-mail-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cb6015;
+    font-size: 1em;
+  }
 
-    .footer__center-info-mail-text a,
-    p {
-      margin-left: 3rem;
-      color: #000;
-      text-decoration: none;
-    }
+  .footer__center-info-mail-text a,
+  p {
+    margin-left: 3rem;
+    color: #000;
+    text-decoration: none;
+  }
 
-    .footer__center-info-phone-text a {
-      margin-left: 3rem;
-      color: #000;
-      text-decoration: none;
-      cursor: pointer;
-    }
+  .footer__center-info-phone-text a {
+    margin-left: 3rem;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
   }
 }
 
@@ -149,7 +149,6 @@
       }
     }
   }
-
 }
 
 .footer__all-items {
@@ -173,7 +172,70 @@
   margin-right: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 427px) {
+  .footer__divider {
+    max-width: 550px;
+  }
+
+  .footer__left {
+    display: none;
+  }
+
+  .footer__center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .footer__center-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer__center-info-location-icon,
+    .footer__center-info-phone-icon,
+    .footer__center-info-mail-icon {
+      margin-left: 10%;
+    }
+
+    .footer__center-info-mail-text a {
+      margin-left: 5%;
+    }
+
+    .footer__center-info-phone-text a,
+    p {
+      margin-left: 5%;
+    }
+  }
+
+  .footer__right {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 1rem;
+    display: grid;
+
+    .footer__right-about-us-title,
+    .footer__right-about-us-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .footer__right-icons-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  .footer__all-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3rem;
+  }
 }
 
 @media (max-width: 426px) {
