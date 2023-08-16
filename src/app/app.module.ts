@@ -19,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LegalWarningComponent } from './pages/legal-warning/legal-warning.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { BusinessComponent } from './pages/business/business.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { BusinessComponent } from './pages/business/business.component';
     LegalWarningComponent,
     PrivacyPolicyComponent,
     BusinessComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,

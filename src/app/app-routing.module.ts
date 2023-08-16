@@ -8,6 +8,7 @@ import { CookiesPolicyComponent } from './pages/cookies-policy/cookies-policy.co
 import { LegalWarningComponent } from './pages/legal-warning/legal-warning.component';
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { BusinessComponent } from './pages/business/business.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'cookies-politica', component: CookiesPolicyComponent },
   { path: 'aviso-legal', component: LegalWarningComponent },
   { path: 'politica-privacidad', component: PrivacyPolicyComponent },
+  { path: '**', component: NotFoundComponent },
 ];
 
 @NgModule({
