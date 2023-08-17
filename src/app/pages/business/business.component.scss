@@ -7,8 +7,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .business__select-business {
@@ -83,4 +83,22 @@
 
 .business__card:hover:after {
   content: "MÁS";
+}
+
+@media (max-width: 425px) {
+  .business__title-text {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+  .business__select-business {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .business__card {
+    margin: 4%;
+  }
 }
