@@ -10,6 +10,8 @@
 .footer__left {
   display: inline-grid;
   width: 40%;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__left-logo {
@@ -31,6 +33,7 @@
   color: #000;
   margin: 20px 0 12px;
   padding: 0;
+  margin-top: 10%;
 }
 
 .footer__link-item {
@@ -62,6 +65,7 @@
 .footer__company {
   margin-left: 3rem;
   margin-right: 2rem;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,7 +78,8 @@
 
 .footer__center {
   width: 35%;
-  display: inline-grid;
+  display: inline-flex;
+  flex-direction: column;
 
   .footer__center-info {
     display: grid;
@@ -114,7 +119,8 @@
 
 .footer__right {
   width: 20%;
-  display: inline-grid;
+  display: inline-flex;
+  flex-direction: column;
 
   .footer__right-about-us-title {
     display: flex;

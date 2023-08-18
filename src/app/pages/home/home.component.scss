@@ -83,19 +83,6 @@
   border-right: 1px solid #cb6015;
 }
 
-.home__img-landing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  .home__img-landing-item {
-    margin-right: 2rem;
-    margin-left: 2rem;
-    width: 50%;
-    height: 50%;
-  }
-}
-
 .home__row {
   display: flex;
   flex-wrap: wrap;
@@ -154,18 +141,6 @@
 
   .home__row {
     display: grid;
-  }
-
-  .home__img-landing {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    margin-right: 1rem;
-  
-    .home__img-landing-item {
-      width: 90%;
-      height: 90%;
-    }
   }
 
   .home_arrow-divider-photos {

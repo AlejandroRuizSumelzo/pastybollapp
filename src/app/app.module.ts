@@ -20,6 +20,7 @@ import { LegalWarningComponent } from './pages/legal-warning/legal-warning.compo
 import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.component';
 import { BusinessComponent } from './pages/business/business.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { CarouselHomeComponent } from './component/carousel/carousel-home/carousel-home.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
     AppRoutingModule,
     CarouselModule,
     CarouselComponent,
+    CarouselHomeComponent,
     BrowserAnimationsModule,
     FontAwesomeModule,
   ],
