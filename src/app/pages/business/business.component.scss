@@ -7,8 +7,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .business__select-business {
@@ -35,15 +35,15 @@
 }
 
 .business__card-bakery {
-  background-image: url(../../../assets/img/business_1.png);
+  background-image: url(/assets/img/business_1.png);
 }
 
 .business__card-restaurant {
-  background-image: url(../../../assets/img/business_2.png);
+  background-image: url(/assets/img/business_2.png);
 }
 
 .business__card-hotels {
-  background-image: url(../../../assets/img/business_3.png);
+  background-image: url(/assets/img/business_3.png);
 }
 
 .business__card::before,
@@ -83,6 +83,16 @@
 
 .business__card:hover:after {
   content: "MÁS";
+}
+
+.business__selected-bakery-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 @media (max-width: 425px) {

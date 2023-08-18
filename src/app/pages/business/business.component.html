@@ -25,8 +25,47 @@
     </p>
   </div>
   <div class="business__select-business">
-    <div class="business__card business__card-bakery">PANADERÍA</div>
-    <div class="business__card business__card-restaurant">RESTAURACIÓN</div>
-    <div class="business__card business__card-hotels">HORECA</div>
+    <div class="business__card business__card-bakery" (click)="selectBakery()">
+      PANADERÍA
+    </div>
+    <div
+      class="business__card business__card-restaurant"
+      (click)="selectRestoration()"
+    >
+      RESTAURACIÓN
+    </div>
+    <div class="business__card business__card-hotels" (click)="selectHoreca()">
+      HORECA
+    </div>
+  </div>
+  <div class="business__selected-bakery" *ngIf="displayBakery">
+    <div class="business__selected-bakery-text">
+      <p>
+        Si eres un amante de los aromas cálidos y reconfortantes que provienen de
+        una panadería tradicional, has llegado al lugar perfecto. Nuestra pestaña
+        de <strong>Panadería</strong> es el paraíso de los panaderos caseros y
+        aficionados al pan recién horneado.
+      </p>
+      <p>
+        En este espacio especial, hemos recopilado con cariño nuestros productos
+        más vendidos que harán las delicias de tu paladar y añadirán ese toque
+        mágico a tus momentos cotidianos. Desde baguettes crujientes hasta bollos
+        de canela irresistibles, cada artículo ha sido cuidadosamente elaborado
+        por nuestros expertos panaderos y luego congelado para preservar la
+        frescura y autenticidad.
+      </p>
+      <p>
+        Ya sea que estés buscando la base perfecta para tu sándwich favorito o
+        simplemente quieras disfrutar de una mañana deliciosa con un panecillo
+        tierno y esponjoso, nuestra selección de masas congeladas te ofrece la
+        versatilidad y la calidad que mereces.
+      </p>
+    </div>
+  </div>
+  <div class="business__selected-bakery" *ngIf="displayRestoration">
+    <p>Restoration works</p>
+  </div>
+  <div class="business__selected-bakery" *ngIf="displayHoreca">
+    <p>Horeca works</p>
   </div>
 </div>
