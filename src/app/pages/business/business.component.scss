@@ -95,6 +95,61 @@
   margin-right: 20%;
 }
 
+.business__selected-bakery-card {
+  height: 254px;
+  width: 190px;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 16px;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  overflow: hidden;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+/*Image*/
+.business__card-image {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  background: #cb6015;
+  background: linear-gradient(to top, #cb6015, #dfa378);
+}
+
+/*Description */
+.business__card-description {
+  width: 84%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  background-image: url("/assets/img/products/croissant_1.webp");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #fff;
+  height: 90%;
+  bottom: 0;
+  border-radius: 16px;
+  transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  padding: 1rem;
+}
+
+/*Text*/
+.business__text-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.business__text-body {
+  font-size: 1rem;
+  line-height: 130%;
+}
+
+/* Hover states */
+.business__selected-bakery-card:hover .business__card-description {
+  transform: translateY(100%);
+}
+
 @media (max-width: 425px) {
   .business__title-text {
     margin-left: 4%;
