@@ -21,6 +21,7 @@ import { PrivacyPolicyComponent } from './pages/privacy-policy/privacy-policy.co
 import { BusinessComponent } from './pages/business/business.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { CarouselHomeComponent } from './component/carousel/carousel-home/carousel-home.component';
+import { ProductCardComponent } from './component/product-card/product-card.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { CarouselHomeComponent } from './component/carousel/carousel-home/carous
     PrivacyPolicyComponent,
     BusinessComponent,
     NotFoundComponent,
+    ProductCardComponent,
   ],
   imports: [
     BrowserModule,

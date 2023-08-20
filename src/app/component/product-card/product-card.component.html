@@ -1,0 +1,40 @@
+<div class="product-card__container">
+  <div class="product-card__bakery" *ngIf="displayBakery">
+    <div
+      class="business__selected-bakery-card"
+      *ngFor="let imageBakery of imagesBakery"
+    >
+      <div class="business__card-image"></div>
+      <div
+        class="business__card-description"
+        [ngStyle]="{ 'background-image': 'url(' + imageBakery + ')' }"
+      ></div>
+    </div>
+  </div>
+
+  <div class="product-card__bakery" *ngIf="displayRestoration">
+    <div
+      class="business__selected-bakery-card"
+      *ngFor="let imageRestoration of imagesRestoration"
+    >
+      <div class="business__card-image"></div>
+      <div
+        class="business__card-description"
+        [ngStyle]="{ 'background-image': 'url(' + imageRestoration + ')' }"
+      ></div>
+    </div>
+  </div>
+
+  <div class="product-card__bakery" *ngIf="displayHoreca">
+    <div
+      class="business__selected-bakery-card"
+      *ngFor="let imageHoreca of imagesHoreca"
+    >
+      <div class="business__card-image"></div>
+      <div
+        class="business__card-description"
+        [ngStyle]="{ 'background-image': 'url(' + imageHoreca + ')' }"
+      ></div>
+    </div>
+  </div>
+</div>

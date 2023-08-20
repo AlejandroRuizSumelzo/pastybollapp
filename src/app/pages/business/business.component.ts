@@ -9,12 +9,14 @@ export class BusinessComponent {
   displayBakery: boolean = false;
   displayRestoration: boolean = false;
   displayHoreca: boolean = false;
+  chosenOption: string = '';
 
   selectBakery(): void {
     if (this.displayBakery) {
       this.displayBakery = false;
     } else if (!this.displayBakery) {
       this.displayBakery = true;
+      this.chosenOption = 'bakery';
     }
     this.displayRestoration = false;
     this.displayHoreca = false;
@@ -26,6 +28,7 @@ export class BusinessComponent {
       this.displayRestoration = false;
     } else if (!this.displayRestoration) {
       this.displayRestoration = true;
+      this.chosenOption = 'restoration';
     }
     this.displayHoreca = false;
   }
@@ -37,6 +40,7 @@ export class BusinessComponent {
       this.displayHoreca = false;
     } else if (!this.displayHoreca) {
       this.displayHoreca = true;
+      this.chosenOption = 'horeca';
     }
   }
 }

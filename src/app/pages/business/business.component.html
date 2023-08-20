@@ -62,17 +62,22 @@
       </p>
     </div>
     <div class="business__selected-bakery-cards">
-      <div class="business__selected-bakery-card">
-        <div class="business__card-image"></div>
-        <div class="business__card-description">
-        </div>
-      </div>
+      <app-product-card
+        *ngIf="displayBakery"
+        [chosenOption]="chosenOption"
+      ></app-product-card>
     </div>
   </div>
   <div class="business__selected-bakery" *ngIf="displayRestoration">
-    <p>Restoration works</p>
+    <app-product-card
+      *ngIf="displayRestoration"
+      [chosenOption]="chosenOption"
+    ></app-product-card>
   </div>
   <div class="business__selected-bakery" *ngIf="displayHoreca">
-    <p>Horeca works</p>
+    <app-product-card
+      *ngIf="displayHoreca"
+      [chosenOption]="chosenOption"
+    ></app-product-card>
   </div>
 </div>
