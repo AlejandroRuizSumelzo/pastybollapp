@@ -1,40 +1,76 @@
 <div class="product-card__container">
-  <div class="product-card__bakery" *ngIf="displayBakery">
-    <div
-      class="business__selected-bakery-card"
-      *ngFor="let imageBakery of imagesBakery"
-    >
-      <div class="business__card-image"></div>
-      <div
-        class="business__card-description"
-        [ngStyle]="{ 'background-image': 'url(' + imageBakery + ')' }"
-      ></div>
-    </div>
+  <div *ngIf="chosenOption === 'bakery'" class="product-card__bakery">
+    <ng-container *ngFor="let image of imagesBakery; let i = index">
+      <div class="business__selected-bakery-card">
+        <div class="business__card-image">
+          <p>{{ productData[i]?.name }}</p>
+          <p><fa-icon [icon]="faBox"></fa-icon>{{ productData[i]?.box }}</p>
+          <p>
+            <fa-icon [icon]="faWeight"></fa-icon>{{ productData[i]?.weight }}
+          </p>
+          <p>
+            <fa-icon [icon]="faTemperature"></fa-icon
+            >{{ productData[i]?.temperature }}
+          </p>
+          <p>
+            <fa-icon [icon]="faRuler"></fa-icon> {{ productData[i]?.length }}
+          </p>
+        </div>
+        <div
+          class="business__card-description"
+          [ngStyle]="{ 'background-image': 'url(' + image + ')' }"
+        ></div>
+      </div>
+    </ng-container>
   </div>
 
-  <div class="product-card__bakery" *ngIf="displayRestoration">
-    <div
-      class="business__selected-bakery-card"
-      *ngFor="let imageRestoration of imagesRestoration"
-    >
-      <div class="business__card-image"></div>
-      <div
-        class="business__card-description"
-        [ngStyle]="{ 'background-image': 'url(' + imageRestoration + ')' }"
-      ></div>
-    </div>
+  <div *ngIf="chosenOption === 'restoration'" class="product-card__bakery">
+    <ng-container *ngFor="let image of imagesRestoration; let i = index">
+      <div class="business__selected-bakery-card">
+        <div class="business__card-image">
+          <p>{{ productData[i]?.name }}</p>
+          <p><fa-icon [icon]="faBox"></fa-icon>{{ productData[i]?.box }}</p>
+          <p>
+            <fa-icon [icon]="faWeight"></fa-icon>{{ productData[i]?.weight }}
+          </p>
+          <p>
+            <fa-icon [icon]="faTemperature"></fa-icon
+            >{{ productData[i]?.temperature }}
+          </p>
+          <p>
+            <fa-icon [icon]="faRuler"></fa-icon> {{ productData[i]?.length }}
+          </p>
+        </div>
+        <div
+          class="business__card-description"
+          [ngStyle]="{ 'background-image': 'url(' + image + ')' }"
+        ></div>
+      </div>
+    </ng-container>
   </div>
 
-  <div class="product-card__bakery" *ngIf="displayHoreca">
-    <div
-      class="business__selected-bakery-card"
-      *ngFor="let imageHoreca of imagesHoreca"
-    >
-      <div class="business__card-image"></div>
-      <div
-        class="business__card-description"
-        [ngStyle]="{ 'background-image': 'url(' + imageHoreca + ')' }"
-      ></div>
-    </div>
+  <div *ngIf="chosenOption === 'horeca'" class="product-card__bakery">
+    <ng-container *ngFor="let image of imagesHoreca; let i = index">
+      <div class="business__selected-bakery-card">
+        <div class="business__card-image">
+          <p>{{ productData[i]?.name }}</p>
+          <p><fa-icon [icon]="faBox"></fa-icon>{{ productData[i]?.box }}</p>
+          <p>
+            <fa-icon [icon]="faWeight"></fa-icon>{{ productData[i]?.weight }}
+          </p>
+          <p>
+            <fa-icon [icon]="faTemperature"></fa-icon
+            >{{ productData[i]?.temperature }}
+          </p>
+          <p>
+            <fa-icon [icon]="faRuler"></fa-icon> {{ productData[i]?.length }}
+          </p>
+        </div>
+        <div
+          class="business__card-description"
+          [ngStyle]="{ 'background-image': 'url(' + image + ')' }"
+        ></div>
+      </div>
+    </ng-container>
   </div>
 </div>

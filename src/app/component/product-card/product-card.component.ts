@@ -1,4 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
+import { faBoxOpen, faRuler, faTemperatureHalf, faWeightHanging } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-product-card',
@@ -7,6 +10,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ProductCardComponent implements OnInit {
   @Input() chosenOption: string = '';
+  productData: any[] = [];
+  faBox = faBoxOpen;
+  faWeight = faWeightHanging;
+  faTemperature = faTemperatureHalf;
+  faRuler = faRuler;
 
   displayBakery: boolean = false;
   displayRestoration: boolean = false;
@@ -51,19 +59,36 @@ export class ProductCardComponent implements OnInit {
     '/assets/img/products/pan_1.webp',
   ];
 
+  constructor(private http: HttpClient, library: FaIconLibrary) {
+    library.addIcons(
+      faBoxOpen,
+      faWeightHanging,
+      faTemperatureHalf,
+      faRuler
+    );
+  }
+
   ngOnInit(): void {
+    this.displayBakery = this.chosenOption === 'bakery';
+    this.displayRestoration = this.chosenOption === 'restoration';
+    this.displayHoreca = this.chosenOption === 'horeca';
+    this.loadProductData();
+  }
+
+  loadProductData(): void {
+    let jsonFileName = '';
+
     if (this.chosenOption === 'bakery') {
-      this.displayBakery = true;
-      this.displayRestoration = false;
-      this.displayHoreca = false;
+      jsonFileName = 'businessDescriptionBakery.json';
     } else if (this.chosenOption === 'restoration') {
-      this.displayBakery = false;
-      this.displayRestoration = true;
-      this.displayHoreca = false;
+      jsonFileName = 'businessDescriptionRestoration.json';
     } else if (this.chosenOption === 'horeca') {
-      this.displayBakery = false;
-      this.displayRestoration = false;
-      this.displayHoreca = true;
+      jsonFileName = 'businessDescriptionHoreca.json';
     }
+
+    this.http.get<any[]>(`/assets/json/business/${jsonFileName}`).subscribe((data) => {
+      this.productData = data;
+      console.log("this.productData",this.productData);
+    });
   }
 }

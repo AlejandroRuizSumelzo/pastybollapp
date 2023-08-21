@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Producto de Horeca 1",
+    "box": "Caja 1",
+    "weight": "20 kg",
+    "temperature": "35°C",
+    "length": "50 cm"
+  },
+  {
+    "name": "Producto de Horeca 2",
+    "box": "Caja 2",
+    "weight": "18 kg",
+    "temperature": "32°C",
+    "length": "45 cm"
+  }
+]

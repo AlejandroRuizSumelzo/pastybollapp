@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Producto de Panadería 1",
+    "box": "Caja 1",
+    "weight": "10 kg",
+    "temperature": "25°C",
+    "length": "30 cm"
+  },
+  {
+    "name": "Producto de Panadería 2",
+    "box": "Caja 2",
+    "weight": "8 kg",
+    "temperature": "20°C",
+    "length": "25 cm"
+  }
+]

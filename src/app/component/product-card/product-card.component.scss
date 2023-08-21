@@ -37,6 +37,24 @@
   transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
   background: #cb6015;
   background: linear-gradient(to top, #cb6015, #dfa378);
+
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+
+  p:first-child {
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15%;
+  }
+
+  fa-icon {
+    margin-right: 5%;;
+  }
 }
 
 /*Description */

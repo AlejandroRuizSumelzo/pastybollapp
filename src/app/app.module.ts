@@ -22,6 +22,7 @@ import { BusinessComponent } from './pages/business/business.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { CarouselHomeComponent } from './component/carousel/carousel-home/carousel-home.component';
 import { ProductCardComponent } from './component/product-card/product-card.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -49,6 +50,7 @@ import { ProductCardComponent } from './component/product-card/product-card.comp
     CarouselHomeComponent,
     BrowserAnimationsModule,
     FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],

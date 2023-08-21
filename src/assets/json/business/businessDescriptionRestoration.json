@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Producto de Restauración 1",
+    "box": "Caja 1",
+    "weight": "15 kg",
+    "temperature": "30°C",
+    "length": "40 cm"
+  },
+  {
+    "name": "Producto de Restauración 2",
+    "box": "Caja 2",
+    "weight": "12 kg",
+    "temperature": "28°C",
+    "length": "35 cm"
+  }
+]
