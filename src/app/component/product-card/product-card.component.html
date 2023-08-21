@@ -6,8 +6,18 @@
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
+          <p><fa-icon [icon]="faTemperature"></fa-icon>{{ product.defrost }}</p>
           <p>
-            <fa-icon [icon]="faTemperature"></fa-icon>{{ product.temperature }}
+            <img
+              class="business__card-image-icon"
+              src="/assets/icon/oven.png"
+            />{{ product.oven }}
+          </p>
+          <p>
+            <img
+              class="business__card-image-icon"
+              src="/assets/icon/oven.png"
+            />{{ product.oventime }}
           </p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
         </div>
@@ -26,9 +36,7 @@
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
-          <p>
-            <fa-icon [icon]="faTemperature"></fa-icon>{{ product.temperature }}
-          </p>
+          <p><fa-icon [icon]="faTemperature"></fa-icon>{{ product.defrost }}</p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
         </div>
         <div
@@ -46,8 +54,16 @@
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
+          <p><fa-icon [icon]="faTemperature"></fa-icon>{{ product.defrost }}</p>
           <p>
-            <fa-icon [icon]="faTemperature"></fa-icon>{{ product.temperature }}
+            <img class="png-icon" src="/assets/icon/oven.png" />{{
+              product.oven
+            }}
+          </p>
+          <p>
+            <img class="png-icon" src="/assets/icon/oven.png" />{{
+              product.oventime
+            }}
           </p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
         </div>

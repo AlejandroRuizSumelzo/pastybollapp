@@ -48,6 +48,7 @@ export class ProductCardComponent implements OnInit {
     }
 
     this.http.get<any[]>(`/assets/json/business/${jsonFileName}`).subscribe((data) => {
+      console.log("data",data);
       this.productData = data;
     });
   }
