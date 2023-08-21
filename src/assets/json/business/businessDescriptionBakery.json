@@ -1,16 +1,314 @@
 [
   {
-    "name": "Producto de Panadería 1",
-    "box": "Caja 1",
-    "weight": "10 kg",
-    "temperature": "25°C",
-    "length": "30 cm"
+    "name": "Baguette del Horno",
+    "box": "34",
+    "weight": "250 g",
+    "temperature": "15-20",
+    "length": "540 mm",
+    "image": "/assets/img/products/business_bakery/24770.webp"
   },
   {
-    "name": "Producto de Panadería 2",
-    "box": "Caja 2",
-    "weight": "8 kg",
-    "temperature": "20°C",
-    "length": "25 cm"
+    "name": "Barra Grande",
+    "box": "20",
+    "weight": "400 g",
+    "temperature": "20-25",
+    "length": "540 mm",
+    "image": "/assets/img/products/business_bakery/10012.webp"
+  },
+  {
+    "name": "Barra Toscana",
+    "box": "22",
+    "weight": "330 g",
+    "temperature": "15-20",
+    "length": "540 mm",
+    "image": "/assets/img/products/business_bakery/20240.webp"
+  },
+  {
+    "name": "Hogaza GR Clásico",
+    "box": "16",
+    "weight": "425 g",
+    "temperature": "25-30",
+    "length": "250 mm",
+    "image": "/assets/img/products/business_bakery/20011.webp"
+  },
+  {
+    "name": "Barra 1/4 Suprême",
+    "box": "25",
+    "weight": "270 g",
+    "temperature": "15-20",
+    "length": "430 mm",
+    "image": "/assets/img/products/business_bakery/30116.webp"
+  },
+  {
+    "name": "Baguette con Salvado",
+    "box": "36",
+    "weight": "250 g",
+    "temperature": "15-20",
+    "length": "525 mm",
+    "image": "/assets/img/products/business_bakery/10032.webp"
+  },
+  {
+    "name": "Barra Cereales Plus",
+    "box": "26",
+    "weight": "275 g",
+    "temperature": "20-25",
+    "length": "450 mm",
+    "image": "/assets/img/products/business_bakery/46551.webp"
+  },
+  {
+    "name": "Barra Silvestre",
+    "box": "32",
+    "weight": "215 g",
+    "temperature": "20-30",
+    "length": "540 mm",
+    "image": "/assets/img/products/business_bakery/22265.webp"
+  },
+  {
+    "name": "Croissant pequeño 100% Mantequilla",
+    "box": "260",
+    "weight": "25 g",
+    "temperature": "15-20",
+    "length": "66 mm",
+    "image": "/assets/img/products/business_bakery/00108.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Sugar",
+    "box": "48",
+    "weight": "65 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/60590.webp"
+  },
+  {
+    "name": "Súper Croissant Clásico Margarina",
+    "box": "60",
+    "weight": "95 g",
+    "temperature": "20-30",
+    "length": "116 mm",
+    "image": "/assets/img/products/business_bakery/69273.webp"
+  },
+  {
+    "name": "Super Napolitana Bombón",
+    "box": "72",
+    "weight": "120 g",
+    "temperature": "15-30",
+    "length": "137 mm",
+    "image": "/assets/img/products/business_bakery/69343.webp"
+  },
+  {
+    "name": "Croissant Margarina XL",
+    "box": "34",
+    "weight": "120 g",
+    "temperature": "40-45",
+    "length": "125 mm",
+    "image": "/assets/img/products/business_bakery/69405.webp"
+  },
+  {
+    "name": "Trenza de Crema con Manzana",
+    "box": "58",
+    "weight": "125 g",
+    "temperature": "15-30",
+    "length": "145 mm",
+    "image": "/assets/img/products/business_bakery/40572.webp"
+  },
+  {
+    "name": "Trenza Danesa Bombón",
+    "box": "58",
+    "weight": "125 g",
+    "temperature": "15-30",
+    "length": "145 mm",
+    "image": "/assets/img/products/business_bakery/570.webp"
+  },
+  {
+    "name": "Maxihojaldre 2 Chocolates",
+    "box": "54",
+    "weight": "130 g",
+    "temperature": "25-30",
+    "length": "140 mm",
+    "image": "/assets/img/products/business_bakery/40220.webp"
+  },
+  {
+    "name": "Hojaldre de Queso y sabor Bacon",
+    "box": "38",
+    "weight": "120 g",
+    "temperature": "15-30",
+    "length": "140 mm",
+    "image": "/assets/img/products/business_bakery/60687.webp"
+  },
+  {
+    "name": "Trenza Lykke",
+    "box": "8px8u",
+    "weight": "540 g",
+    "temperature": "40-45",
+    "length": "330 mm",
+    "image": "/assets/img/products/business_bakery/69422.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
+  },
+  {
+    "name": "Big Dots Negrito",
+    "box": "48",
+    "weight": "80 g",
+    "temperature": "15-20",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/24690.webp"
   }
 ]

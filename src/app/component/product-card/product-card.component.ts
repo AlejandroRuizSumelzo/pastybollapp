@@ -20,45 +20,6 @@ export class ProductCardComponent implements OnInit {
   displayRestoration: boolean = false;
   displayHoreca: boolean = false;
 
-  imagesBakery: string[] = [
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-  ];
-
-  imagesRestoration: string[] = [
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-  ];
-
-  imagesHoreca: string[] = [
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/pan_1.webp',
-    '/assets/img/products/croissant_1.webp',
-    '/assets/img/products/pan_1.webp',
-  ];
-
   constructor(private http: HttpClient, library: FaIconLibrary) {
     library.addIcons(
       faBoxOpen,
@@ -88,7 +49,6 @@ export class ProductCardComponent implements OnInit {
 
     this.http.get<any[]>(`/assets/json/business/${jsonFileName}`).subscribe((data) => {
       this.productData = data;
-      console.log("this.productData",this.productData);
     });
   }
 }

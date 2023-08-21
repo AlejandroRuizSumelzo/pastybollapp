@@ -1,74 +1,59 @@
 <div class="product-card__container">
   <div *ngIf="chosenOption === 'bakery'" class="product-card__bakery">
-    <ng-container *ngFor="let image of imagesBakery; let i = index">
+    <ng-container *ngFor="let product of productData; let i = index">
       <div class="business__selected-bakery-card">
         <div class="business__card-image">
-          <p>{{ productData[i]?.name }}</p>
-          <p><fa-icon [icon]="faBox"></fa-icon>{{ productData[i]?.box }}</p>
+          <p>{{ product.name }}</p>
+          <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
+          <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
           <p>
-            <fa-icon [icon]="faWeight"></fa-icon>{{ productData[i]?.weight }}
+            <fa-icon [icon]="faTemperature"></fa-icon>{{ product.temperature }}
           </p>
-          <p>
-            <fa-icon [icon]="faTemperature"></fa-icon
-            >{{ productData[i]?.temperature }}
-          </p>
-          <p>
-            <fa-icon [icon]="faRuler"></fa-icon> {{ productData[i]?.length }}
-          </p>
+          <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
         </div>
         <div
           class="business__card-description"
-          [ngStyle]="{ 'background-image': 'url(' + image + ')' }"
+          [ngStyle]="{ 'background-image': 'url(' + product.image + ')' }"
         ></div>
       </div>
     </ng-container>
   </div>
 
   <div *ngIf="chosenOption === 'restoration'" class="product-card__bakery">
-    <ng-container *ngFor="let image of imagesRestoration; let i = index">
+    <ng-container *ngFor="let product of productData; let i = index">
       <div class="business__selected-bakery-card">
         <div class="business__card-image">
-          <p>{{ productData[i]?.name }}</p>
-          <p><fa-icon [icon]="faBox"></fa-icon>{{ productData[i]?.box }}</p>
+          <p>{{ product.name }}</p>
+          <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
+          <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
           <p>
-            <fa-icon [icon]="faWeight"></fa-icon>{{ productData[i]?.weight }}
+            <fa-icon [icon]="faTemperature"></fa-icon>{{ product.temperature }}
           </p>
-          <p>
-            <fa-icon [icon]="faTemperature"></fa-icon
-            >{{ productData[i]?.temperature }}
-          </p>
-          <p>
-            <fa-icon [icon]="faRuler"></fa-icon> {{ productData[i]?.length }}
-          </p>
+          <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
         </div>
         <div
           class="business__card-description"
-          [ngStyle]="{ 'background-image': 'url(' + image + ')' }"
+          [ngStyle]="{ 'background-image': 'url(' + product.image + ')' }"
         ></div>
       </div>
     </ng-container>
   </div>
 
   <div *ngIf="chosenOption === 'horeca'" class="product-card__bakery">
-    <ng-container *ngFor="let image of imagesHoreca; let i = index">
+    <ng-container *ngFor="let product of productData; let i = index">
       <div class="business__selected-bakery-card">
         <div class="business__card-image">
-          <p>{{ productData[i]?.name }}</p>
-          <p><fa-icon [icon]="faBox"></fa-icon>{{ productData[i]?.box }}</p>
+          <p>{{ product.name }}</p>
+          <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
+          <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
           <p>
-            <fa-icon [icon]="faWeight"></fa-icon>{{ productData[i]?.weight }}
+            <fa-icon [icon]="faTemperature"></fa-icon>{{ product.temperature }}
           </p>
-          <p>
-            <fa-icon [icon]="faTemperature"></fa-icon
-            >{{ productData[i]?.temperature }}
-          </p>
-          <p>
-            <fa-icon [icon]="faRuler"></fa-icon> {{ productData[i]?.length }}
-          </p>
+          <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
         </div>
         <div
           class="business__card-description"
-          [ngStyle]="{ 'background-image': 'url(' + image + ')' }"
+          [ngStyle]="{ 'background-image': 'url(' + product.image + ')' }"
         ></div>
       </div>
     </ng-container>
