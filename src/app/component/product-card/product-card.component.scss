@@ -117,3 +117,13 @@
   transform: translateY(10px);
   transition: 100ms;
 }
+
+@media (max-width: 425px) {
+  .business__selected-bakery-card {
+    margin-bottom: 15%;
+  }
+
+  .business__card-button-container {
+    margin-top: 15%;
+  }
+}
