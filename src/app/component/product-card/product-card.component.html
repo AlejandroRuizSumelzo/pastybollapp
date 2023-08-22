@@ -6,7 +6,9 @@
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
-          <p *ngIf="product.defrost !== ''"><fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}</p>
+          <p *ngIf="product.defrost !== ''">
+            <fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}
+          </p>
           <p *ngIf="product.oven !== ''">
             <img
               class="business__card-image-icon"
