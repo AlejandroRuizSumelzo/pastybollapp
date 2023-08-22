@@ -7,11 +7,12 @@
 }
 
 .products__container {
-  min-height: 100vh;
+  min-height: 10vh;
   display: grid;
   align-content: center;
   gap: 2rem;
   padding: 2rem;
+  margin-bottom: 10%;
 }
 
 h1 {
@@ -19,20 +20,16 @@ h1 {
 }
 
 ol {
-  width: min(60rem, 90%);
   margin-inline: auto;
-
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
-
   list-style: none;
   counter-reset: cardnr;
   justify-content: center;
 }
 
 li {
-  --frontColor: #dcae8d;
+  --frontColor: #f8c6a2;
   --width: 10em;
   --inlineP: 0.5rem;
   --borderR: 4rem;
@@ -61,7 +58,7 @@ li .business__category-descr {
 
 li .business__category-icon,
 li .business__category-title {
-  color: var(--accent-color);
+  color: #000;
   text-align: center;
   padding-bottom: 0.5rem;
 }
@@ -80,8 +77,8 @@ li .business__category-icon {
   position: relative;
 
   img {
-    height: 25%;
-    width: 25%;
+    height: 75%;
+    width: 50%;
   }
 }
 
@@ -145,4 +142,11 @@ li::before {
   background-image: linear-gradient(var(--accent-color), transparent 60%);
   opacity: 0.5;
   filter: blur(2px);
+}
+
+@media (max-width: 425px) {
+  ol {
+    display: grid;
+    gap: 3rem;
+  }
 }
