@@ -23,6 +23,12 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { CarouselHomeComponent } from './component/carousel/carousel-home/carousel-home.component';
 import { ProductCardComponent } from './component/product-card/product-card.component';
 import { HttpClientModule } from '@angular/common/http';
+import { BreadComponent } from './pages/products/bread/bread.component';
+import { BakeryComponent } from './pages/products/bakery/bakery.component';
+import { DotsComponent } from './pages/products/dots/dots.component';
+import { PizzaComponent } from './pages/products/pizza/pizza.component';
+import { LykkeComponent } from './pages/products/lykke/lykke.component';
+import { KitchenComponent } from './pages/products/kitchen/kitchen.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +47,12 @@ import { HttpClientModule } from '@angular/common/http';
     BusinessComponent,
     NotFoundComponent,
     ProductCardComponent,
+    BreadComponent,
+    BakeryComponent,
+    DotsComponent,
+    PizzaComponent,
+    LykkeComponent,
+    KitchenComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,10 @@
 <div class="products__container">
   <ol>
-    <li style="--accent-color: #cb6015" *ngFor="let category of categorias">
+    <li
+      style="--accent-color: #cb6015"
+      *ngFor="let category of categorias"
+      (click)="goToCategory(category.id)"
+    >
       <div class="business__category-icon">
         <img [src]="category.icon" alt="{{ category.name }} Icon" />
       </div>
@@ -11,3 +15,4 @@
     </li>
   </ol>
 </div>
+<router-outlet></router-outlet>
