@@ -1,1 +1,13 @@
-<p>products works!</p>
+<div class="products__container">
+  <ol>
+    <li style="--accent-color: #cb6015" *ngFor="let category of categorias">
+      <div class="business__category-icon">
+        <img [src]="category.icon" alt="{{ category.name }} Icon" />
+      </div>
+      <div class="business__category-title">{{ category.name }}</div>
+      <div class="business__category-descr">
+        {{ category.description }}
+      </div>
+    </li>
+  </ol>
+</div>

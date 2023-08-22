@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Pan",
+    "description": "Variedad de panes frescos y deliciosos.",
+    "icon": "/assets/icon/oven.webp"
+  },
+  {
+    "id": 2,
+    "name": "Bollería",
+    "description": "Pasteles y dulces recién horneados.",
+    "icon": "/assets/icon/oven.webp"
+  },
+  {
+    "id": 3,
+    "name": "Dots",
+    "description": "Dulces y snacks divertidos en forma de puntos.",
+    "icon": "/assets/icon/oven.webp"
+  },
+  {
+    "id": 4,
+    "name": "Bollería Salada",
+    "description": "Deliciosos bocadillos salados recién preparados.",
+    "icon": "/assets/icon/oven.webp"
+  },
+  {
+    "id": 5,
+    "name": "Kitchen",
+    "description": "Utensilios y aparatos para tu cocina.",
+    "icon": "/assets/icon/oven.webp"
+  },
+  {
+    "id": 6,
+    "name": "Pizzas",
+    "description": "Pizzas artesanales con ingredientes frescos.",
+    "icon": "/assets/icon/oven.webp"
+  },
+  {
+    "id": 7,
+    "name": "Empanadas",
+    "description": "Empanadas caseras y sabrosas para todos los gustos.",
+    "icon": "/assets/icon/oven.webp"
+  }
+]

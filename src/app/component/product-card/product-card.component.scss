@@ -29,7 +29,6 @@
   margin-top: 5%;
 }
 
-/*Image*/
 .business__card-image {
   height: 100%;
   width: 100%;
@@ -43,13 +42,15 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    text-align: center;
+    max-width: 100%;
   }
 
   p:first-child {
-    margin-top: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 5%;
+    margin-top: 12.5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 3%;
   }
 
   fa-icon {
@@ -63,7 +64,6 @@
   }
 }
 
-/*Description */
 .business__card-description {
   width: 84%;
   display: flex;
@@ -79,18 +79,6 @@
   padding: 1rem;
 }
 
-/*Text*/
-.business__text-title {
-  font-size: 1.3rem;
-  font-weight: 700;
-}
-
-.business__text-body {
-  font-size: 1rem;
-  line-height: 130%;
-}
-
-/* Hover states */
 .business__selected-bakery-card:hover .business__card-description {
   transform: translateY(100%);
 }
