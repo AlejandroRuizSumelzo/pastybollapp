@@ -19,7 +19,7 @@
 }
 
 .business__selected-bakery-card {
-  height: 254px;
+  height: 300px;
   width: 190px;
   position: relative;
   transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -72,7 +72,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
-  height: 90%;
+  height: 80%;
   bottom: 0;
   border-radius: 16px;
   transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -93,4 +93,39 @@
 /* Hover states */
 .business__selected-bakery-card:hover .business__card-description {
   transform: translateY(100%);
+}
+
+.business__card-button-container {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.business__card-button-more {
+  padding: 17px 40px;
+  border-radius: 50px;
+  border: 0;
+  background-color: #cb6015;
+  box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+
+.business__card-button-more:hover {
+  letter-spacing: 3px;
+  background-color: #cb6015;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #cb6015 0px 7px 29px 0px;
+}
+
+.business__card-button-more:active {
+  letter-spacing: 3px;
+  background-color: #cb6015;
+  color: hsl(0, 0%, 100%);
+  box-shadow: #cb6015 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
 }

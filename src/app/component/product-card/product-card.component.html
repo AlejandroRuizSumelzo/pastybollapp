@@ -1,22 +1,22 @@
 <div class="product-card__container">
   <div *ngIf="chosenOption === 'bakery'" class="product-card__bakery">
-    <ng-container *ngFor="let product of productData; let i = index">
+    <ng-container *ngFor="let product of displayedData">
       <div class="business__selected-bakery-card">
         <div class="business__card-image">
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
-          <p><fa-icon [icon]="faTemperature"></fa-icon>{{ product.defrost }}</p>
-          <p>
+          <p *ngIf="product.defrost !== ''"><fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}</p>
+          <p *ngIf="product.oven !== ''">
             <img
               class="business__card-image-icon"
-              src="/assets/icon/oven.png"
+              src="/assets/icon/oven.webp"
             />{{ product.oven }}
           </p>
-          <p>
+          <p *ngIf="product.oventime !== ''">
             <img
               class="business__card-image-icon"
-              src="/assets/icon/oven.png"
+              src="/assets/icon/oven_time.webp"
             />{{ product.oventime }}
           </p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
@@ -28,15 +28,36 @@
       </div>
     </ng-container>
   </div>
+  <div class="business__card-button-container">
+    <button
+      *ngIf="chosenOption === 'bakery'"
+      class="business__card-button-more"
+      (click)="showMore()"
+    >
+      Mostrar más
+    </button>
+  </div>
 
   <div *ngIf="chosenOption === 'restoration'" class="product-card__bakery">
-    <ng-container *ngFor="let product of productData; let i = index">
+    <ng-container *ngFor="let product of displayedData">
       <div class="business__selected-bakery-card">
         <div class="business__card-image">
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
-          <p><fa-icon [icon]="faTemperature"></fa-icon>{{ product.defrost }}</p>
+          <p><fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}</p>
+          <p>
+            <img
+              class="business__card-image-icon"
+              src="/assets/icon/oven.webp"
+            />{{ product.oven }}
+          </p>
+          <p>
+            <img
+              class="business__card-image-icon"
+              src="/assets/icon/oven_time.webp"
+            />{{ product.oventime }}
+          </p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
         </div>
         <div
@@ -46,24 +67,35 @@
       </div>
     </ng-container>
   </div>
+  <div class="business__card-button-container">
+    <button
+      *ngIf="chosenOption === 'restoration'"
+      class="business__card-button-more"
+      (click)="showMore()"
+    >
+      Mostrar más
+    </button>
+  </div>
 
   <div *ngIf="chosenOption === 'horeca'" class="product-card__bakery">
-    <ng-container *ngFor="let product of productData; let i = index">
+    <ng-container *ngFor="let product of displayedData">
       <div class="business__selected-bakery-card">
         <div class="business__card-image">
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
-          <p><fa-icon [icon]="faTemperature"></fa-icon>{{ product.defrost }}</p>
+          <p><fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}</p>
           <p>
-            <img class="png-icon" src="/assets/icon/oven.png" />{{
-              product.oven
-            }}
+            <img
+              class="business__card-image-icon"
+              src="/assets/icon/oven.webp"
+            />{{ product.oven }}
           </p>
           <p>
-            <img class="png-icon" src="/assets/icon/oven.png" />{{
-              product.oventime
-            }}
+            <img
+              class="business__card-image-icon"
+              src="/assets/icon/oven_time.webp"
+            />{{ product.oventime }}
           </p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
         </div>
@@ -73,5 +105,14 @@
         ></div>
       </div>
     </ng-container>
+  </div>
+  <div class="business__card-button-container">
+    <button
+      *ngIf="chosenOption === 'horeca'"
+      class="business__card-button-more"
+      (click)="showMore()"
+    >
+      Mostrar más
+    </button>
   </div>
 </div>

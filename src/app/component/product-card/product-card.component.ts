@@ -1,7 +1,14 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { FaIconLibrary } from '@fortawesome/angular-fontawesome';
-import { faBoxOpen, faRuler, faTemperatureHalf, faWeightHanging } from '@fortawesome/free-solid-svg-icons';
+import {
+  faBoxOpen,
+  faRuler,
+  faSnowflake,
+  faTemperatureHalf,
+  faWeightHanging,
+} from '@fortawesome/free-solid-svg-icons';
+import { Product } from 'src/app/interface/product';
 
 @Component({
   selector: 'app-product-card',
@@ -10,23 +17,19 @@ import { faBoxOpen, faRuler, faTemperatureHalf, faWeightHanging } from '@fortawe
 })
 export class ProductCardComponent implements OnInit {
   @Input() chosenOption: string = '';
-  productData: any[] = [];
+  productData: Product[] = [];
+  displayedData: Product[] = [];
   faBox = faBoxOpen;
   faWeight = faWeightHanging;
-  faTemperature = faTemperatureHalf;
   faRuler = faRuler;
+  faSnowflake = faSnowflake;
 
   displayBakery: boolean = false;
   displayRestoration: boolean = false;
   displayHoreca: boolean = false;
 
   constructor(private http: HttpClient, library: FaIconLibrary) {
-    library.addIcons(
-      faBoxOpen,
-      faWeightHanging,
-      faTemperatureHalf,
-      faRuler
-    );
+    library.addIcons(faBoxOpen, faWeightHanging, faRuler, faSnowflake);
   }
 
   ngOnInit(): void {
@@ -47,9 +50,20 @@ export class ProductCardComponent implements OnInit {
       jsonFileName = 'businessDescriptionHoreca.json';
     }
 
-    this.http.get<any[]>(`/assets/json/business/${jsonFileName}`).subscribe((data) => {
-      console.log("data",data);
-      this.productData = data;
-    });
+    this.http
+      .get<Product[]>(`/assets/json/business/${jsonFileName}`)
+      .subscribe((data) => {
+        this.productData = data;
+        this.displayedData = data.slice(0, 10);
+      });
+  }
+
+  showMore(): void {
+    const startIndex = this.displayedData.length;
+    const endIndex = startIndex + 10;
+
+    if (startIndex < this.productData.length) {
+      this.displayedData.push(...this.productData.slice(startIndex, endIndex));
+    }
   }
 }
