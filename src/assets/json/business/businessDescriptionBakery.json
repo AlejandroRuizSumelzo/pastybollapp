@@ -70,6 +70,16 @@
     "image": "/assets/img/products/business_bakery/46551.webp"
   },
   {
+    "name": "Pan Breton",
+    "box": "30 u",
+    "weight": "250 g",
+    "defrost": "15-20",
+    "oven": "180º",
+    "oventime": "15-18'",
+    "length": "540 mm",
+    "image": "/assets/img/products/business_bakery/35.webp"
+  },
+  {
     "name": "Barra Silvestre",
     "box": "32 u",
     "weight": "215 g",
@@ -108,6 +118,26 @@
     "oventime": "",
     "length": "108 mm",
     "image": "/assets/img/products/business_bakery/60590.webp"
+  },
+  {
+    "name": "Napolitana Crema",
+    "box": "72 u",
+    "weight": "120 g",
+    "defrost": "15-30",
+    "oven": "180º",
+    "oventime": "15-18'",
+    "length": "137 mm",
+    "image": "/assets/img/products/business_bakery/69352.webp"
+  },
+  {
+    "name": "Gran Napolitana Mixta",
+    "box": "40 u",
+    "weight": "145 g",
+    "defrost": "20-30",
+    "oven": "180º",
+    "oventime": "15-18'",
+    "length": "132 mm",
+    "image": "/assets/img/products/business_bakery/60834.webp"
   },
   {
     "name": "Súper Croissant Clásico Margarina",
@@ -181,7 +211,7 @@
   },
   {
     "name": "Trenza Lykke",
-    "box": "64 u",
+    "box": "8 u",
     "weight": "540 g",
     "defrost": "40-45",
     "oven": "",
@@ -348,5 +378,115 @@
     "oventime": "10-15'",
     "length": "470 mm",
     "image": "/assets/img/products/business_bakery/69966.webp"
+  },
+  {
+    "name": "Suso Chocolate",
+    "box": "24 u",
+    "weight": "100 g",
+    "defrost": "20-40",
+    "oven": "",
+    "oventime": "",
+    "length": "160 mm",
+    "image": "/assets/img/products/business_bakery/62810.webp"
+  },
+  {
+    "name": "Suso Crema",
+    "box": "24 u",
+    "weight": "100 g",
+    "defrost": "20-40",
+    "oven": "",
+    "oventime": "",
+    "length": "160 mm",
+    "image": "/assets/img/products/business_bakery/61305.webp"
+  },
+  {
+    "name": "Malla Praline",
+    "box": "54 u",
+    "weight": "100 g",
+    "defrost": "20-30",
+    "oven": "180-190º",
+    "oventime": "15-20'",
+    "length": "180 mm",
+    "image": "/assets/img/products/business_bakery/66910.webp"
+  },
+  {
+    "name": "Torsade Caprice",
+    "box": "50 u",
+    "weight": "90 g",
+    "defrost": "20-30",
+    "oven": "180º",
+    "oventime": "10-15'",
+    "length": "175 mm",
+    "image": "/assets/img/products/business_bakery/69981.webp"
+  },
+  {
+    "name": "Super Croissant Mantequilla",
+    "box": "40 u",
+    "weight": "95 g",
+    "defrost": "20-30",
+    "oven": "180º",
+    "oventime": "15-18'",
+    "length": "108 mm",
+    "image": "/assets/img/products/business_bakery/60741.webp"
+  },
+  {
+    "name": "Snecken Pasas y Nueces",
+    "box": "60 u",
+    "weight": "130 g",
+    "defrost": "20-30",
+    "oven": "180",
+    "oventime": "15'",
+    "length": "90 mm",
+    "image": "/assets/img/products/business_bakery/10282.webp"
+  },
+  {
+    "name": "Super Croissant Paris",
+    "box": "80 u",
+    "weight": "90 g",
+    "defrost": "20-30",
+    "oven": "180º",
+    "oventime": "15-20'",
+    "length": "155 mm",
+    "image": "/assets/img/products/business_bakery/24430.webp"
+  },
+  {
+    "name": "Super Croissant Paris Choco",
+    "box": "48 u",
+    "weight": "90 g",
+    "defrost": "20-30",
+    "oven": "180º",
+    "oventime": "15-20'",
+    "length": "145 mm",
+    "image": "/assets/img/products/business_bakery/23710.webp"
+  },
+  {
+    "name": "Croissant bombon midi",
+    "box": "90 u",
+    "weight": "55 g",
+    "defrost": "20-30",
+    "oven": "180º",
+    "oventime": "15-20'",
+    "length": "120 mm",
+    "image": "/assets/img/products/business_bakery/65090.webp"
+  },
+  {
+    "name": "Placa Hojaldre ",
+    "box": "15 u",
+    "weight": "1000 g",
+    "defrost": "20-30",
+    "oven": "180º",
+    "oventime": "18-20'",
+    "length": "600x400 mm",
+    "image": "/assets/img/products/business_bakery/660.webp"
+  },
+  {
+    "name": "Placa Croissant",
+    "box": "8 u",
+    "weight": "1500 g",
+    "defrost": "20-30",
+    "oven": "180º",
+    "oventime": "15-18'",
+    "length": "365 mm",
+    "image": "/assets/img/products/business_bakery/44600.webp"
   }
 ]
