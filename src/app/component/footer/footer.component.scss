@@ -7,6 +7,15 @@
   background: linear-gradient(90deg, #cb6015, #e6cfbe, #cb6015);
 }
 
+.footer__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
 .footer__left {
   display: inline-grid;
   width: 40%;
@@ -62,20 +71,6 @@
   content: none;
 }
 
-.footer__company {
-  margin-left: 3rem;
-  margin-right: 2rem;
-  margin-top: 5%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  .footer__company-text a {
-    text-decoration: none;
-    color: #000;
-  }
-}
-
 .footer__center {
   width: 35%;
   display: inline-flex;
@@ -119,7 +114,7 @@
 
 .footer__right {
   width: 20%;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
 
   .footer__right-about-us-title {
@@ -145,13 +140,14 @@
     margin-top: 1rem;
 
     .footer__right-icons-list {
-      display: inline-flex;
+      display: flex;
+      align-items: center;
       list-style: none;
 
       .footer__right-icon {
         color: #cb6015;
         font-size: 2em;
-        margin: 2rem;
+        margin-right: 3rem;
       }
     }
   }
@@ -166,6 +162,13 @@
   a[routerlink],
   a[href] {
     color: #000;
+  }
+
+  .footer__company {
+    .footer__company-text a {
+      text-decoration: none;
+      color: #000;
+    }
   }
 }
 
@@ -183,12 +186,18 @@
     max-width: 550px;
   }
 
+  .footer__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .footer__left {
     display: none;
   }
 
   .footer__center {
-    width: 100%;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -197,36 +206,41 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-direction: column;
     }
 
-    .footer__center-info-location-icon,
-    .footer__center-info-phone-icon,
-    .footer__center-info-mail-icon {
-      margin-left: 10%;
-    }
-
-    .footer__center-info-mail-text a {
-      margin-left: 5%;
+    .footer__center-info-location,
+    .footer__center-info-phone,
+    .footer__center-info-mail {
+      display: flex;
+      justify-content: center;
     }
 
     .footer__center-info-phone-text a,
-    p {
-      margin-left: 5%;
+    .footer__center-info-mail-text a {
+      margin-left: 0rem;
+    }
+
+    .footer__center-info-mail-icon,
+    .footer__center-info-phone-icon {
+      margin-right: 1rem;
     }
   }
 
   .footer__right {
-    width: 100%;
+    width: auto;
     margin-top: 2rem;
-    margin-left: 2rem;
-    margin-right: 1rem;
-    display: grid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 
     .footer__right-about-us-title,
     .footer__right-about-us-text {
       display: flex;
       align-items: center;
       justify-content: center;
+      margin-left: 8%;
+      margin-right: 5%;
     }
 
     .footer__right-icons-container {
@@ -245,8 +259,12 @@
 }
 
 @media (max-width: 426px) {
-  .footer__container {
-    max-width: 320px;
+  .footer__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 4%;
   }
 
   .footer__left {

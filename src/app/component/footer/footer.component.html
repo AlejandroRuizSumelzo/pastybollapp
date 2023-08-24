@@ -1,99 +1,100 @@
 <footer class="footer__container">
   <div class="footer__divider"></div>
-  <div class="footer__left">
-    <div class="footer__left-logo">
-      <img
-        src="/assets/img/logo/logo_pastyboll.webp"
-        class="footer__pastybol-logo"
-        alt="Pastyboll logo"
-      />
+  <div class="footer__box">
+    <div class="footer__left">
+      <div class="footer__left-logo">
+        <img
+          src="/assets/img/logo/logo_pastyboll.webp"
+          class="footer__pastybol-logo"
+          alt="Pastyboll logo"
+        />
+      </div>
+      <div class="footer__links">
+        <a routerLink="/home" class="footer__link-item">Inicio</a>
+
+        <a routerLink="/company" class="footer__link-item">Nosotros</a>
+
+        <a routerLink="/products" class="footer__link-item">Productos</a>
+
+        <a routerLink="/contact" class="footer__link-item">Contacto</a>
+
+        <a routerLink="/business" class="footer__link-item">Negocios</a>
+      </div>
     </div>
-    <div class="footer__links">
-      <a routerLink="/home" class="footer__link-item">Inicio</a>
-
-      <a routerLink="/company" class="footer__link-item">Nosotros</a>
-
-      <a routerLink="/products" class="footer__link-item">Productos</a>
-
-      <a routerLink="/contact" class="footer__link-item">Contacto</a>
-
-      <a routerLink="/business" class="footer__link-item">Negocios</a>
+    <div class="footer__center">
+      <div class="footer__center-info">
+        <div class="footer__center-info-location">
+          <div class="footer__center-info-location-icon">
+            <fa-icon [icon]="faMaps"></fa-icon>
+          </div>
+          <div class="footer__center-info-location-text">
+            <p>Calle Sur, Nave 20</p>
+            <p>Parque Tecnológico de Pinseque</p>
+            <p>50298, Zaragoza, España</p>
+          </div>
+        </div>
+        <div class="footer__center-info-phone">
+          <div class="footer__center-info-phone-icon">
+            <fa-icon [icon]="faPhone"></fa-icon>
+          </div>
+          <div class="footer__center-info-phone-text">
+            <a href="tel:+34976656574">976 65 65 74</a>
+          </div>
+        </div>
+        <div class="footer__center-info-mail">
+          <div class="footer__center-info-mail-icon">
+            <fa-icon [icon]="faMail"></fa-icon>
+          </div>
+          <div class="footer__center-info-mail-text">
+            <a [href]="'mailto:' + mail">pastyboll@pastyboll.es</a>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <div class="footer__right">
+      <div class="footer__right-about-us">
+        <div class="footer__right-about-us-title">
+          <h3>Acerca de nosotros</h3>
+        </div>
+        <div class="footer__right-about-us-text">
+          <p>
+            30 años de excelencia en masas congeladas para panaderías y
+            hostelería.
+          </p>
+          <p>Su éxito es nuestro éxito.</p>
+        </div>
+      </div>
+      <div class="footer__right-icons-container">
+        <ul class="footer__right-icons-list">
+          <li>
+            <a
+              class="footer__right-icon"
+              href="https://wa.me/34620726233"
+              target="_blank"
+            >
+              <fa-icon [icon]="faWhatsapp"></fa-icon>
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer__right-icon"
+              href="https://www.instagram.com/pastybollzaragoza/?hl=es"
+              target="_blank"
+            >
+              <fa-icon [icon]="faInstagram"></fa-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer__all-items">
     <div class="footer__company">
       <p class="footer__company-text">
         <a routerLink="/home">© {{ currentYear }} Pastyboll S.L.</a>
       </p>
     </div>
-  </div>
-  <div class="footer__center">
-    <div class="footer__center-info">
-      <div class="footer__center-info-location">
-        <div class="footer__center-info-location-icon">
-          <fa-icon [icon]="faMaps"></fa-icon>
-        </div>
-        <div class="footer__center-info-location-text">
-          <p>Calle Sur, Nave 20</p>
-          <p>Parque Tecnológico de Pinseque</p>
-          <p>50298, Zaragoza, España</p>
-        </div>
-      </div>
-      <div class="footer__center-info-phone">
-        <div class="footer__center-info-phone-icon">
-          <fa-icon [icon]="faPhone"></fa-icon>
-        </div>
-        <div class="footer__center-info-phone-text">
-          <a href="tel:+34976656574">976 65 65 74</a>
-        </div>
-      </div>
-      <div class="footer__center-info-mail">
-        <div class="footer__center-info-mail-icon">
-          <fa-icon [icon]="faMail"></fa-icon>
-        </div>
-        <div class="footer__center-info-mail-text">
-          <a [href]="'mailto:' + mail">pastyboll@pastyboll.es</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="footer__right">
-    <div class="footer__right-about-us">
-      <div class="footer__right-about-us-title">
-        <h3>Acerca de nosotros</h3>
-      </div>
-      <div class="footer__right-about-us-text">
-        <p>
-          30 años de excelencia en masas congeladas para panaderías y
-          hostelería.
-        </p>
-        <p>Su éxito es nuestro éxito.</p>
-      </div>
-    </div>
-    <div class="footer__right-icons-container">
-      <ul class="footer__right-icons-list">
-        <li>
-          <a
-            class="footer__right-icon"
-            href="https://wa.me/34620726233"
-            target="_blank"
-          >
-            <fa-icon [icon]="faWhatsapp"></fa-icon>
-          </a>
-        </li>
-        <li>
-          <a
-            class="footer__right-icon"
-            href="https://www.instagram.com/pastybollzaragoza/?hl=es"
-            target="_blank"
-          >
-            <fa-icon [icon]="faInstagram"></fa-icon>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer__all-items">
     <div class="footer__legal-advise">
       <p>
         <a routerLink="/aviso-legal">Aviso Legal</a>
