@@ -16,6 +16,8 @@ import { Product } from 'src/app/interface/product';
 })
 export class ProductCardComponent implements OnInit {
   @Input() chosenOption: string = '';
+  @Input() filteredProducts: Product[] = [];
+
   productData: Product[] = [];
   displayedData: Product[] = [];
   faBox = faBoxOpen;
@@ -26,16 +28,22 @@ export class ProductCardComponent implements OnInit {
   displayBakery: boolean = false;
   displayRestoration: boolean = false;
   displayHoreca: boolean = false;
+  filterDisplay: boolean = false;
 
   constructor(private http: HttpClient, library: FaIconLibrary) {
     library.addIcons(faBoxOpen, faWeightHanging, faRuler, faSnowflake);
   }
 
   ngOnInit(): void {
-    this.displayBakery = this.chosenOption === 'bakery';
-    this.displayRestoration = this.chosenOption === 'restoration';
-    this.displayHoreca = this.chosenOption === 'horeca';
-    this.loadProductData();
+    if (this.chosenOption !== '') {
+      this.displayBakery = this.chosenOption === 'bakery';
+      this.displayRestoration = this.chosenOption === 'restoration';
+      this.displayHoreca = this.chosenOption === 'horeca';
+      this.loadProductData();
+    } else if (this.filteredProducts.length > 0) {
+      this.displayedData = this.filteredProducts;
+      this.filterDisplay = true;
+    }
   }
 
   loadProductData(): void {

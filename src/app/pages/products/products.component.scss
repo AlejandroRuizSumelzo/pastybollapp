@@ -151,9 +151,8 @@ li::before {
   margin-top: 5%;
   margin-left: 20%;
   margin-right: 20%;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
-
 
 .products__box-filter-group {
   display: flex;
@@ -197,14 +196,40 @@ input:hover {
   width: 1rem;
 }
 
-.products__box-filter-results{
-  display: flex;
-  flex-direction: column;
+.products__box-filter-results {
+  margin-top: 5%;
+
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.products__box-filter-no-results {
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media (max-width: 425px) {
   ol {
     display: grid;
     gap: 3rem;
+  }
+
+  .products__box-filter {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+  }
+
+  .products__box-filter-results {
+    h2 {
+      margin-bottom: 10%;
+    }
   }
 }

@@ -27,27 +27,33 @@
           [icon]="faSearch"
         ></fa-icon>
         <input
-          placeholder="Prueba con Barra, Croissant..."
+          placeholder="Prueba con Barra, Croissant, Dots..."
           type="search"
           class="products__box-filter-input"
           [(ngModel)]="searchTerm"
           (input)="filterProducts()"
+          (ngModelChange)="onSearchChanges()"
         />
       </div>
     </div>
+  </div>
 
-    <div class="products__box-filter-results">
-      <div *ngIf="filteredProducts.length > 0; else noResults">
-        <h2>Resultados de la búsqueda:</h2>
-        <ul>
-          <li *ngFor="let product of filteredProducts">
-            {{ product.name }}
-          </li>
-        </ul>
-      </div>
-      <ng-template #noResults>
-        <p>No se encontraron resultados.</p>
-      </ng-template>
+  <div class="products__box-filter-results">
+    <div>
+      <ng-container *ngIf="filteredProducts.length > 0">
+        <h2>
+          Resultados de la búsqueda:
+        </h2>
+        <app-product-card
+          [filteredProducts]="filteredProducts"
+        ></app-product-card>
+      </ng-container>
+      <ng-container
+        *ngIf="filteredProducts.length === 0 && searchTerm"
+        class="products__box-filter-no-results"
+      >
+        <p>No se encontraron resultados</p>
+      </ng-container>
     </div>
   </div>
 </div>

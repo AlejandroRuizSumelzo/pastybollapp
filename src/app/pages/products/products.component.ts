@@ -56,7 +56,7 @@ export class ProductsComponent implements OnInit {
           return this.products;
         })
       )
-      .subscribe((products) => {});
+      .subscribe();
   }
 
   goToCategory(id: number): void {
@@ -86,10 +86,23 @@ export class ProductsComponent implements OnInit {
     }
   }
 
-  filterProducts() {
-    this.filteredProducts = this.products.filter(product =>
-      product.name.toLowerCase().includes(this.searchTerm.toLowerCase())
-    );
+  onSearchChanges() {
+    if (this.searchTerm === '') {
+      this.filteredProducts = [];
+    } else {
+      this.filteredProducts = this.products.filter((product) =>
+        product.name.toLowerCase().includes(this.searchTerm.toLowerCase())
+      );
+    }
   }
 
+  filterProducts() {
+    if (this.searchTerm.length >= 2) {
+      this.filteredProducts = this.products.filter((product) =>
+        product.name.toLowerCase().includes(this.searchTerm.toLowerCase())
+      );
+    } else {
+      this.filteredProducts = [];
+    }
+  }
 }
