@@ -3,18 +3,18 @@
 }
 
 .carousel__image {
-  max-width: 100%; /* Cambia este valor según el tamaño deseado */
-  height: auto; /* Mantén la proporción original de la imagen */
-  display: block; /* Asegura que la imagen se muestre como un bloque */
-  margin: 0 auto; /* Centra las imágenes horizontalmente */
-  border-radius: 5px; /* Agrega bordes redondeados si es necesario */
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
 }
 
 ::ng-deep .owl-theme .owl-dots .owl-dot span {
-  background: #eec29a !important; /* dots color*/
+  background: #eec29a !important;
 }
 
 ::ng-deep .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #cb6015 !important; /*active and on hover color*/
+  background: #cb6015 !important;
 }
