@@ -16,3 +16,38 @@
   </ol>
 </div>
 <router-outlet></router-outlet>
+<div>
+  <div class="products__box-filter">
+    <div class="products__box-filter-search">
+      <div class="products__box-filter-group">
+        <fa-icon
+          class="products__box-filter-icon"
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          [icon]="faSearch"
+        ></fa-icon>
+        <input
+          placeholder="Prueba con Barra, Croissant..."
+          type="search"
+          class="products__box-filter-input"
+          [(ngModel)]="searchTerm"
+          (input)="filterProducts()"
+        />
+      </div>
+    </div>
+
+    <div class="products__box-filter-results">
+      <div *ngIf="filteredProducts.length > 0; else noResults">
+        <h2>Resultados de la búsqueda:</h2>
+        <ul>
+          <li *ngFor="let product of filteredProducts">
+            {{ product.name }}
+          </li>
+        </ul>
+      </div>
+      <ng-template #noResults>
+        <p>No se encontraron resultados.</p>
+      </ng-template>
+    </div>
+  </div>
+</div>

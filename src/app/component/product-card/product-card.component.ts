@@ -5,7 +5,6 @@ import {
   faBoxOpen,
   faRuler,
   faSnowflake,
-  faTemperatureHalf,
   faWeightHanging,
 } from '@fortawesome/free-solid-svg-icons';
 import { Product } from 'src/app/interface/product';
