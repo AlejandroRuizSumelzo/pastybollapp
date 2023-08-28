@@ -1,0 +1,85 @@
+.bakery__container {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.bread__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+}
+
+.bread__sub-category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* Estilo de la lista de subcategorías */
+.subcategory-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex; /* Cambia el diseño de la lista a una fila */
+  justify-content: space-between; /* Espaciado uniforme entre elementos */
+  align-items: center;
+}
+
+.subcategory-item {
+  width: 150px;
+  padding: 10px;
+  border-bottom: none;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+  flex: 1; /* Distribuye el espacio uniformemente entre elementos */
+}
+
+.subcategory-item:hover {
+  background-color: #cb6015; /* Cambia el color de fondo al pasar el ratón sobre un elemento */
+}
+
+/* Estilo de texto de las subcategorías */
+.subcategory-item a {
+  text-decoration: none;
+  color: #000; /* Color de texto principal */
+  font-size: 16px;
+  display: block;
+}
+
+/* Estilo de texto cuando se pasa el ratón sobre las subcategorías */
+.subcategory-item:hover a {
+  color: white; /* Cambia el color de texto al pasar el ratón sobre un elemento */
+}
+
+/* Estilo del ícono (puedes usar tu propio ícono) */
+.subcategory-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+/* Estilo de la flecha indicadora (puedes usar un ícono de flecha) */
+.subcategory-arrow {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+  vertical-align: middle;
+}
+
+/* Estilo de la flecha cuando se pasa el ratón sobre las subcategorías */
+.subcategory-item:hover .subcategory-arrow {
+  transform: rotate(
+    90deg
+  ); /* Gira la flecha al pasar el ratón sobre un elemento */
+}

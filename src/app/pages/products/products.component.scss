@@ -237,7 +237,36 @@ input:hover {
   }
 }
 
+@media (max-width: 1439px) {
+  .products__introduction {
+    h1,
+    h2,
+    p {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+
+  .products__categories {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  ol {
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 425px) {
+  .products__introduction {
+    h1,
+    h2,
+    p {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  }
+
   ol {
     display: grid;
     gap: 3rem;

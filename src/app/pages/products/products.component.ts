@@ -16,6 +16,7 @@ import { CategoriesService } from 'src/app/services/categories.service';
 })
 export class ProductsComponent implements OnInit {
   private products: Product[] = [];
+
   categorias: CategoryProduct[] = [];
   filteredProducts: Product[] = [];
   searchTerm: string = '';
