@@ -9,77 +9,56 @@
   justify-content: center;
   flex-direction: column;
 
-  h1,
-  h2,
-  h3 {
+  h1 {
     text-align: center;
   }
 }
 
 .bread__sub-category {
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-}
 
-/* Estilo de la lista de subcategorías */
-.subcategory-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-family: Arial, sans-serif;
-  display: flex; /* Cambia el diseño de la lista a una fila */
-  justify-content: space-between; /* Espaciado uniforme entre elementos */
-  align-items: center;
-}
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 10rem;
+    background: #fff;
+  }
 
-.subcategory-item {
-  width: 150px;
-  padding: 10px;
-  border-bottom: none;
-  transition: background-color 0.2s ease-in-out;
-  cursor: pointer;
-  flex: 1; /* Distribuye el espacio uniformemente entre elementos */
-}
+  a {
+    display: block;
+    padding: 9px 10px 5px 10px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
 
-.subcategory-item:hover {
-  background-color: #cb6015; /* Cambia el color de fondo al pasar el ratón sobre un elemento */
-}
+  /* Styles for hover and active states */
+  a:hover,
+  a:active {
+    background: linear-gradient(to bottom, #d77f40 0%, #cb6015 100%);
+    color: #fff;
+  }
 
-/* Estilo de texto de las subcategorías */
-.subcategory-item a {
-  text-decoration: none;
-  color: #000; /* Color de texto principal */
-  font-size: 16px;
-  display: block;
-}
+  /* Styles for the right arrow indicator */
+  a:after {
+    content: "〉";
+    float: right;
+    font-weight: bold;
+    color: #808080;
+    font-size: 13px;
+    text-shadow: 1px 0 1px #808080;
+  }
 
-/* Estilo de texto cuando se pasa el ratón sobre las subcategorías */
-.subcategory-item:hover a {
-  color: white; /* Cambia el color de texto al pasar el ratón sobre un elemento */
-}
-
-/* Estilo del ícono (puedes usar tu propio ícono) */
-.subcategory-icon {
-  display: inline-block;
-  width: 24px;
-  height: 24px;
-  margin-right: 10px;
-  vertical-align: middle;
-}
-
-/* Estilo de la flecha indicadora (puedes usar un ícono de flecha) */
-.subcategory-arrow {
-  display: inline-block;
-  margin-left: 10px;
-  font-size: 14px;
-  vertical-align: middle;
-}
-
-/* Estilo de la flecha cuando se pasa el ratón sobre las subcategorías */
-.subcategory-item:hover .subcategory-arrow {
-  transform: rotate(
-    90deg
-  ); /* Gira la flecha al pasar el ratón sobre un elemento */
+  /* Styles for arrow indicator on hover */
+  a:hover:after {
+    color: #fff;
+    text-shadow: 1px 0 1px #fff;
+  }
 }

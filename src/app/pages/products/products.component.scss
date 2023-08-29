@@ -42,6 +42,21 @@
   }
 }
 
+.products__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10%;
+
+  h2,
+  h3 {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+}
+
 ol {
   margin-inline: auto;
   display: flex;
