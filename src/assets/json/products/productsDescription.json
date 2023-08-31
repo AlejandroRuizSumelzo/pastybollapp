@@ -58,5 +58,17 @@
     "image": "/assets/img/products/business_bakery/30116.webp",
     "category": "1",
     "subCategory": "Cristalino"
+  },
+  {
+    "name": "Hogaza Segunda Categoría",
+    "box": "16 u",
+    "weight": "425 g",
+    "defrost": "25-30",
+    "oven": "170-180º",
+    "oventime": "35-45'",
+    "length": "250 mm",
+    "image": "/assets/img/products/business_bakery/20011.webp",
+    "category": "2",
+    "subCategory": "Cristalino"
   }
 ]

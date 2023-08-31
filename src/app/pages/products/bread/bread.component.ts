@@ -15,7 +15,9 @@ export class BreadComponent implements OnInit {
 
   ngOnInit(): void {
     this.http.get<Product[]>(jsonFile).subscribe((jsonData: Product[]) => {
-      this.filteredProducts = jsonData;
+      this.filteredProducts = jsonData.filter(
+        (product) => product.category === '1'
+      );
     });
   }
 
