@@ -1,0 +1,28 @@
+<ng-container *ngFor="let product of displayedData">
+  <div class="card__selected">
+    <div class="card__selected-image">
+      <p>{{ product.name }}</p>
+      <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
+      <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
+      <p *ngIf="product.defrost !== ''">
+        <fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}
+      </p>
+      <p *ngIf="product.oven !== ''">
+        <img class="card__selected-image-icon" src="/assets/icon/oven.svg" />{{
+          product.oven
+        }}
+      </p>
+      <p *ngIf="product.oventime !== ''">
+        <img
+          class="card__selected-image-icon"
+          src="/assets/icon/oven_time.svg"
+        />{{ product.oventime }}
+      </p>
+      <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
+    </div>
+    <div
+      class="card__selected-description"
+      [ngStyle]="{ 'background-image': 'url(' + product.image + ')' }"
+    ></div>
+  </div>
+</ng-container>

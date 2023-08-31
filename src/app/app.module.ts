@@ -30,6 +30,7 @@ import { PizzaComponent } from './pages/products/pizza/pizza.component';
 import { LykkeComponent } from './pages/products/lykke/lykke.component';
 import { KitchenComponent } from './pages/products/kitchen/kitchen.component';
 import { FormsModule } from '@angular/forms';
+import { CardComponent } from './component/product-card/card/card.component';
 
 @NgModule({
   declarations: [
@@ -54,6 +55,7 @@ import { FormsModule } from '@angular/forms';
     PizzaComponent,
     LykkeComponent,
     KitchenComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,

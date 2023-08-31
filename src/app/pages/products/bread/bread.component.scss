@@ -1,6 +1,5 @@
 .bakery__container {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin: 0 15%; /* Utiliza la propiedad abreviada margin para simplificar */
 }
 
 .bread__header {
@@ -8,17 +7,17 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
+}
 
-  h1 {
-    text-align: center;
-  }
+.bread__category-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
 }
 
 .bread__sub-category {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
+  flex: 0 0 auto;
 
   ul {
     list-style: none;
@@ -39,14 +38,12 @@
     color: #000;
   }
 
-  /* Styles for hover and active states */
   a:hover,
   a:active {
     background: linear-gradient(to bottom, #d77f40 0%, #cb6015 100%);
     color: #fff;
   }
 
-  /* Styles for the right arrow indicator */
   a:after {
     content: "〉";
     float: right;
@@ -56,9 +53,13 @@
     text-shadow: 1px 0 1px #808080;
   }
 
-  /* Styles for arrow indicator on hover */
   a:hover:after {
     color: #fff;
     text-shadow: 1px 0 1px #fff;
   }
+}
+
+.bread__card {
+  display: flex;
+  flex-wrap: wrap;
 }

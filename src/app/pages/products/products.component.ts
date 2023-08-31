@@ -9,6 +9,11 @@ import { CategoryProduct } from 'src/app/interface/category-product';
 import { Product } from 'src/app/interface/product';
 import { CategoriesService } from 'src/app/services/categories.service';
 
+const jsonFileNames = [
+  'businessDescriptionBakery.json',
+  'businessDescriptionRestoration.json',
+  'businessDescriptionHoreca.json',
+];
 @Component({
   selector: 'app-products',
   templateUrl: './products.component.html',
@@ -40,11 +45,6 @@ export class ProductsComponent implements OnInit {
   }
 
   loadAllProducts() {
-    const jsonFileNames = [
-      'businessDescriptionBakery.json',
-      'businessDescriptionRestoration.json',
-      'businessDescriptionHoreca.json',
-    ];
 
     const requests = jsonFileNames.map((fileName) => {
       return this.http.get<Product[]>(`/assets/json/business/${fileName}`);
