@@ -114,6 +114,36 @@
   justify-content: center;
 }
 
+.home__ia {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 60vh;
+  overflow: hidden;
+  gap: 2rem;
+}
+
+.home__ia-image {
+  flex: 1;
+  height: 90%;
+  background-image: url("/assets/img/pastyboll1.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.home__ia-text {
+  flex: 1;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.home__ia-text p {
+  margin: 0;
+  font-size: 16px;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .container {
     max-width: 850px;
