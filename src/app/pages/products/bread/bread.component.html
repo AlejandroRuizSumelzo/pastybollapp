@@ -1,1 +1,17 @@
-<p>bread works!</p>
+<div class="bread__container">
+  <div class="bread__header">
+    <h1>PAN</h1>
+  </div>
+  <div class="bread__category-container">
+    <div class="bread__sub-category">
+      <ul>
+        <li><a (click)="showCards('1', 'Cristalino')">Cristalino</a></li>
+        <li><a (click)="showCards('1', 'Tradicional')">Tradicional</a></li>
+        <li><a (click)="showCards('1', 'Gallego')">Gallego</a></li>
+        <li><a (click)="showCards('1', 'Vegano')">Vegano</a></li>
+      </ul>
+    </div>
+
+    <app-card class="bread__card" [displayedData]="filteredProducts"></app-card>
+  </div>
+</div>

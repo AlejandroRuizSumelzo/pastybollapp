@@ -7,4 +7,6 @@ export interface Product {
   oventime: string;
   length: string;
   image: string;
+  category?: string;
+  subCategory?: string;
 }

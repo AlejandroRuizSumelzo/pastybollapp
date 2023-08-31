@@ -1,18 +1,93 @@
 <div class="products__container">
-  <ol>
-    <li
-      style="--accent-color: #cb6015"
-      *ngFor="let category of categorias"
-      (click)="goToCategory(category.id)"
-    >
-      <div class="business__category-icon">
-        <img [src]="category.icon" alt="{{ category.name }} Icon" />
-      </div>
-      <div class="business__category-title">{{ category.name }}</div>
-      <div class="business__category-descr">
-        {{ category.description }}
-      </div>
-    </li>
-  </ol>
+  <div class="products__introduction">
+    <h1>Productos de calidad, las mejores masas congeladas de Zaragoza</h1>
+
+    <h2>Explora nuestras categorías de pan, bollería y productos congelados</h2>
+
+    <p>
+      Bienvenido a Pastyboll, tu fuente confiable de productos de masa congelada
+      de alta calidad. Con más de 30 años de experiencia, somos una empresa
+      familiar dedicada a la distribución de masas congeladas excepcionales.
+      Nuestra pasión es ofrecerte soluciones culinarias que satisfagan las
+      necesidades de tu negocio.
+    </p>
+    <p>
+      Ya seas un panadero tradicional o una empresa de hostelería, creemos que
+      tu éxito es nuestro éxito. Trabajamos incansablemente para brindarte lo
+      mejor en cada bocado. En Pastyboll, estamos comprometidos con la frescura
+      y la calidad en cada uno de nuestros productos. Te invitamos a explorar
+      nuestro catálogo y a disfrutar de la diferencia que ofrecemos.
+    </p>
+
+    <div class="products__header">
+      <h2>
+        En Pastyboll, creemos en simplificar su experiencia de compra. No
+        queremos abrumarlo con una larga lista de productos. En su lugar, hemos
+        organizado nuestras categorías para que pueda tener una idea clara de lo
+        que ofrecemos.
+      </h2>
+      <h3>
+        Siéntase libre de explorar y llámenos sin compromiso si tiene alguna
+        pregunta o necesita más información. Estamos aquí para ayudarle a
+        encontrar exactamente lo que necesita.
+      </h3>
+    </div>
+  </div>
+  <div class="products__categories">
+    <ol>
+      <li
+        style="--accent-color: #cb6015"
+        *ngFor="let category of categorias"
+        (click)="goToCategory(category.id)"
+      >
+        <div class="business__category-icon">
+          <img [src]="category.icon" alt="{{ category.name }} Icon" />
+        </div>
+        <div class="business__category-title">{{ category.name }}</div>
+        <div class="business__category-descr">
+          {{ category.description }}
+        </div>
+      </li>
+    </ol>
+  </div>
 </div>
 <router-outlet></router-outlet>
+<div>
+  <div class="products__box-filter">
+    <div class="products__box-filter-search">
+      <div class="products__box-filter-group">
+        <fa-icon
+          class="products__box-filter-icon"
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          [icon]="faSearch"
+        ></fa-icon>
+        <input
+          placeholder="Prueba con Barra, Croissant, Dots..."
+          type="search"
+          class="products__box-filter-input"
+          [(ngModel)]="searchTerm"
+          (input)="filterProducts()"
+          (ngModelChange)="onSearchChanges()"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="products__box-filter-results">
+    <div>
+      <ng-container *ngIf="filteredProducts.length > 0">
+        <h2>Resultados de la búsqueda:</h2>
+        <app-product-card
+          [filteredProducts]="filteredProducts"
+        ></app-product-card>
+      </ng-container>
+      <ng-container
+        *ngIf="filteredProducts.length === 0 && searchTerm"
+        class="products__box-filter-no-results"
+      >
+        <p>No se encontraron resultados</p>
+      </ng-container>
+    </div>
+  </div>
+</div>

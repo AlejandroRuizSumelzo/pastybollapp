@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Baguette del Horno",
+    "box": "34 u",
+    "weight": "250 g",
+    "defrost": "15-20",
+    "oven": "190-210º",
+    "oventime": "15-20'",
+    "length": "540 mm",
+    "image": "/assets/img/products/business_bakery/24770.webp",
+    "category": "1",
+    "subCategory": "Cristalino"
+  },
+  {
+    "name": "Barra Grande",
+    "box": "20 u",
+    "weight": "400 g",
+    "defrost": "20-25",
+    "oven": "175-190º",
+    "oventime": "20-25'",
+    "length": "540 mm",
+    "image": "/assets/img/products/business_bakery/10012.webp",
+    "category": "1",
+    "subCategory": "Cristalino"
+  },
+  {
+    "name": "Barra Toscana",
+    "box": "22 u",
+    "weight": "330 g",
+    "defrost": "15-20",
+    "oven": "190-210º",
+    "oventime": "15-20'",
+    "length": "540 mm",
+    "image": "/assets/img/products/business_bakery/20240.webp",
+    "category": "1",
+    "subCategory": "Tradicional"
+  },
+  {
+    "name": "Hogaza GR Clásico",
+    "box": "16 u",
+    "weight": "425 g",
+    "defrost": "25-30",
+    "oven": "170-180º",
+    "oventime": "35-45'",
+    "length": "250 mm",
+    "image": "/assets/img/products/business_bakery/20011.webp",
+    "category": "1",
+    "subCategory": "Cristalino"
+  },
+  {
+    "name": "Barra 1/4 Suprême",
+    "box": "25 u",
+    "weight": "270 g",
+    "defrost": "15-20",
+    "oven": "190-210º",
+    "oventime": "15-20'",
+    "length": "430 mm",
+    "image": "/assets/img/products/business_bakery/30116.webp",
+    "category": "1",
+    "subCategory": "Cristalino"
+  },
+  {
+    "name": "Hogaza Segunda Categoría",
+    "box": "16 u",
+    "weight": "425 g",
+    "defrost": "25-30",
+    "oven": "170-180º",
+    "oventime": "35-45'",
+    "length": "250 mm",
+    "image": "/assets/img/products/business_bakery/20011.webp",
+    "category": "2",
+    "subCategory": "Cristalino"
+  }
+]

@@ -12,13 +12,13 @@
           <p *ngIf="product.oven !== ''">
             <img
               class="business__card-image-icon"
-              src="/assets/icon/oven.webp"
+              src="/assets/icon/oven.svg"
             />{{ product.oven }}
           </p>
           <p *ngIf="product.oventime !== ''">
             <img
               class="business__card-image-icon"
-              src="/assets/icon/oven_time.webp"
+              src="/assets/icon/oven_time.svg"
             />{{ product.oventime }}
           </p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
@@ -30,7 +30,10 @@
       </div>
     </ng-container>
   </div>
-  <div class="business__card-button-container">
+  <div
+    *ngIf="chosenOption === 'bakery'"
+    class="business__card-button-container"
+  >
     <button
       *ngIf="chosenOption === 'bakery'"
       class="business__card-button-more"
@@ -47,17 +50,19 @@
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
-          <p><fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}</p>
-          <p>
+          <p *ngIf="product.defrost !== ''">
+            <fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}
+          </p>
+          <p *ngIf="product.oven !== ''">
             <img
               class="business__card-image-icon"
-              src="/assets/icon/oven.webp"
+              src="/assets/icon/oven.svg"
             />{{ product.oven }}
           </p>
-          <p>
+          <p *ngIf="product.oventime !== ''">
             <img
               class="business__card-image-icon"
-              src="/assets/icon/oven_time.webp"
+              src="/assets/icon/oven_time.svg"
             />{{ product.oventime }}
           </p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
@@ -69,7 +74,10 @@
       </div>
     </ng-container>
   </div>
-  <div class="business__card-button-container">
+  <div
+    *ngIf="chosenOption === 'restoration'"
+    class="business__card-button-container"
+  >
     <button
       *ngIf="chosenOption === 'restoration'"
       class="business__card-button-more"
@@ -86,17 +94,19 @@
           <p>{{ product.name }}</p>
           <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
           <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
-          <p><fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}</p>
-          <p>
+          <p *ngIf="product.defrost !== ''">
+            <fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}
+          </p>
+          <p *ngIf="product.oven !== ''">
             <img
               class="business__card-image-icon"
-              src="/assets/icon/oven.webp"
+              src="/assets/icon/oven.svg"
             />{{ product.oven }}
           </p>
-          <p>
+          <p *ngIf="product.oventime !== ''">
             <img
               class="business__card-image-icon"
-              src="/assets/icon/oven_time.webp"
+              src="/assets/icon/oven_time.svg"
             />{{ product.oventime }}
           </p>
           <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
@@ -108,7 +118,10 @@
       </div>
     </ng-container>
   </div>
-  <div class="business__card-button-container">
+  <div
+    *ngIf="chosenOption === 'horeca'"
+    class="business__card-button-container"
+  >
     <button
       *ngIf="chosenOption === 'horeca'"
       class="business__card-button-more"
@@ -116,5 +129,37 @@
     >
       Mostrar más
     </button>
+  </div>
+
+  <div *ngIf="filterDisplay" class="product-card__search">
+    <ng-container *ngFor="let product of displayedData">
+      <div class="business__selected-bakery-card">
+        <div class="business__card-image">
+          <p>{{ product.name }}</p>
+          <p><fa-icon [icon]="faBox"></fa-icon>{{ product.box }}</p>
+          <p><fa-icon [icon]="faWeight"></fa-icon>{{ product.weight }}</p>
+          <p *ngIf="product.defrost !== ''">
+            <fa-icon [icon]="faSnowflake"></fa-icon>{{ product.defrost }}
+          </p>
+          <p *ngIf="product.oven !== ''">
+            <img
+              class="business__card-image-icon"
+              src="/assets/icon/oven.svg"
+            />{{ product.oven }}
+          </p>
+          <p *ngIf="product.oventime !== ''">
+            <img
+              class="business__card-image-icon"
+              src="/assets/icon/oven_time.svg"
+            />{{ product.oventime }}
+          </p>
+          <p><fa-icon [icon]="faRuler"></fa-icon> {{ product.length }}</p>
+        </div>
+        <div
+          class="business__card-description"
+          [ngStyle]="{ 'background-image': 'url(' + product.image + ')' }"
+        ></div>
+      </div>
+    </ng-container>
   </div>
 </div>
