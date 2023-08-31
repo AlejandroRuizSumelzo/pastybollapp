@@ -181,6 +181,16 @@
   margin-right: 2rem;
 }
 
+@media (max-width: 1101px) and (min-width: 769px) {
+  .footer__left {
+    display: none;
+  }
+  .footer__center,
+  .footer__right{
+    width: 35%;
+  }
+}
+
 @media (max-width: 768px) and (min-width: 427px) {
   .footer__divider {
     max-width: 550px;
