@@ -1,5 +1,5 @@
-.bakery__container {
-  margin: 0 15%; /* Utiliza la propiedad abreviada margin para simplificar */
+.bread__container {
+  margin: 0 15%;
 }
 
 .bread__header {
@@ -12,12 +12,12 @@
 
 .bread__category-container {
   display: flex;
-  flex-wrap: wrap;
   gap: 2rem;
 }
 
 .bread__sub-category {
   flex: 0 0 auto;
+  flex-direction: column;
 
   ul {
     list-style: none;
@@ -62,4 +62,22 @@
 .bread__card {
   display: flex;
   flex-wrap: wrap;
+  float: right;
+  flex-grow: 1;
+}
+
+@media (max-width: 425px) {
+  .bread__container {
+    margin: 0 1%;
+  }
+
+  .bread__category-container {
+    gap: 1rem;
+  }
+
+  .bread__sub-category {
+    ul {
+      width: 9rem;
+    }
+  }
 }

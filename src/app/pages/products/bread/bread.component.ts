@@ -1,5 +1,5 @@
 import { HttpClient } from '@angular/common/http';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Product } from 'src/app/interface/product';
 
 const jsonFile = '/assets/json/products/productsDescription.json';
@@ -9,9 +9,15 @@ const jsonFile = '/assets/json/products/productsDescription.json';
   templateUrl: './bread.component.html',
   styleUrls: ['./bread.component.scss'],
 })
-export class BreadComponent {
+export class BreadComponent implements OnInit {
   filteredProducts: Product[] = [];
   constructor(private http: HttpClient) {}
+
+  ngOnInit(): void {
+    this.http.get<Product[]>(jsonFile).subscribe((jsonData: Product[]) => {
+      this.filteredProducts = jsonData;
+    });
+  }
 
   filterProducts(
     jsonData: Product[],
