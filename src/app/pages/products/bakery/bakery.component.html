@@ -2,4 +2,16 @@
   <div class="bakery__header">
     <h1>BOLLERÍA</h1>
   </div>
+  <div class="bakery__category-container">
+    <div class="bakery__sub-category">
+      <ul>
+        <li><a (click)="showCards('1', 'Cristalino')">Cristalino</a></li>
+        <li><a (click)="showCards('1', 'Tradicional')">Tradicional</a></li>
+        <li><a (click)="showCards('1', 'Gallego')">Gallego</a></li>
+        <li><a (click)="showCards('1', 'Vegano')">Vegano</a></li>
+      </ul>
+    </div>
+
+    <app-card class="bakery__card" [displayedData]="filteredProducts"></app-card>
+  </div>
 </div>
