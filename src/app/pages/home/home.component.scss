@@ -118,7 +118,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  height: 60vh;
+  height: 70vh;
   overflow: hidden;
   gap: 2rem;
 }
@@ -176,6 +176,19 @@
   .home_arrow-divider-photos {
     display: flex;
   }
+
+  .home__ia {
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home__ia-image{
+    height: 90%;
+    width: 90%;
+    border-radius: 3px;
+  }
+
 }
 
 @media (min-width: 376px) and (max-width: 480px) {
