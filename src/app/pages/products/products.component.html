@@ -35,21 +35,28 @@
   </div>
   <div class="products__categories">
     <ol>
-      <li
-        style="--accent-color: #cb6015"
-        *ngFor="let category of categorias"
-        (click)="goToCategory(category.id)"
-      >
-        <div class="business__category-icon">
-          <img [src]="category.icon" alt="{{ category.name }} Icon" />
-        </div>
-        <div class="business__category-title">{{ category.name }}</div>
-        <div class="business__category-descr">
-          {{ category.description }}
-        </div>
-      </li>
+      <ng-container *ngFor="let category of categorias">
+        <li
+          style="--accent-color: #cb6015"
+          (click)="goToCategory(category.id)"
+          *ngIf="!selectedCategoryId || selectedCategoryId === category.id"
+        >
+          <div class="business__category-icon">
+            <img [src]="category.icon" alt="{{ category.name }} Icon" />
+          </div>
+          <div class="business__category-title">{{ category.name }}</div>
+          <div class="business__category-descr">
+            {{ category.description }}
+          </div>
+        </li>
+      </ng-container>
     </ol>
   </div>
+</div>
+<div *ngIf="isSelectedCategory" class="business__category-click-up">
+  <h2>
+    Haz clic en el elemento justo arriba para ver todas las categorías
+  </h2>
 </div>
 <router-outlet></router-outlet>
 <div>

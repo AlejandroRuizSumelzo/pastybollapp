@@ -25,6 +25,8 @@ export class ProductsComponent implements OnInit {
   categorias: CategoryProduct[] = [];
   filteredProducts: Product[] = [];
   searchTerm: string = '';
+  selectedCategoryId: number | null = null;
+  isSelectedCategory: boolean = false;
 
   faSearch = faMagnifyingGlass;
 
@@ -45,7 +47,6 @@ export class ProductsComponent implements OnInit {
   }
 
   loadAllProducts() {
-
     const requests = jsonFileNames.map((fileName) => {
       return this.http.get<Product[]>(`/assets/json/business/${fileName}`);
     });
@@ -61,9 +62,15 @@ export class ProductsComponent implements OnInit {
   }
 
   goToCategory(id: number): void {
-    const categoryRoute = `/products/${this.getCategoryRoute(id)}`;
-
-    this.router.navigate([categoryRoute]);
+    if (this.selectedCategoryId === id) {
+      this.selectedCategoryId = null;
+      this.isSelectedCategory = false;
+    } else {
+      this.selectedCategoryId = id;
+      this.isSelectedCategory = true;
+      const categoryRoute = `/products/${this.getCategoryRoute(id)}`;
+      this.router.navigate([categoryRoute]);
+    }
   }
 
   getCategoryRoute(id: number): string {
