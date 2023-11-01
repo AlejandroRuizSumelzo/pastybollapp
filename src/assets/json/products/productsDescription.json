@@ -1572,14 +1572,14 @@
     "weight": "145 g"
   },
   {
-    "name": "Bacata Gran Reserva",
+    "name": "Bocata Gran Reserva",
     "box": "50 u",
     "weight": "150 g",
     "defrost": "20-25",
     "oven": "180º",
     "oventime": "15-20'",
     "length": "255 mm",
-    "image": "/assets/img/products/business_bakery/22421.webp",
+    "image": "/assets/img/products/all_products/22421.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1591,7 +1591,7 @@
     "oven": "180º",
     "oventime": "8-10'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/27520.webp",
+    "image": "/assets/img/products/all_products/27520.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1603,7 +1603,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "550 mm",
-    "image": "/assets/img/products/business_bakery/30016.webp",
+    "image": "/assets/img/products/all_products/30016.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1615,7 +1615,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "530 mm",
-    "image": "/assets/img/products/business_bakery/68325.webp",
+    "image": "/assets/img/products/all_products/68325.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -1627,7 +1627,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "225 mm",
-    "image": "/assets/img/products/business_bakery/74580.webp",
+    "image": "/assets/img/products/all_products/74580.webp",
     "category": "2",
     "subCategory": "Lista"
   },
@@ -1639,7 +1639,7 @@
     "oven": "180º",
     "oventime": "20-25'",
     "length": "260 mm",
-    "image": "/assets/img/products/business_bakery/28260.webp",
+    "image": "/assets/img/products/all_products/28260.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -1651,7 +1651,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "230 mm",
-    "image": "/assets/img/products/business_bakery/00492.webp",
+    "image": "/assets/img/products/all_products/00492.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -1663,7 +1663,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "76 mm",
-    "image": "/assets/img/products/business_bakery/00106.webp",
+    "image": "/assets/img/products/all_products/00106.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -1675,7 +1675,7 @@
     "oven": "180º",
     "oventime": "16-16'",
     "length": "130 mm",
-    "image": "/assets/img/products/business_bakery/40028.webp",
+    "image": "/assets/img/products/all_products/40028.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1687,7 +1687,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "540 mm",
-    "image": "/assets/img/products/business_bakery/66931.webp",
+    "image": "/assets/img/products/all_products/66931.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1699,7 +1699,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "275 mm",
-    "image": "/assets/img/products/business_bakery/40022.webp",
+    "image": "/assets/img/products/all_products/40022.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1711,7 +1711,7 @@
     "oven": "170º",
     "oventime": "12-15'",
     "length": "90 mm",
-    "image": "/assets/img/products/business_bakery/67410.webp",
+    "image": "/assets/img/products/all_products/67410.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -1723,7 +1723,7 @@
     "oven": "170º",
     "oventime": "17-20'",
     "length": "145 mm",
-    "image": "/assets/img/products/business_bakery/67420.webp",
+    "image": "/assets/img/products/all_products/67420.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -1735,7 +1735,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "65 mm",
-    "image": "/assets/img/products/business_bakery/10276.webp",
+    "image": "/assets/img/products/all_products/10276.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -1747,7 +1747,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "50 mm",
-    "image": "/assets/img/products/business_bakery/00549.webp",
+    "image": "/assets/img/products/all_products/00549.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -1759,7 +1759,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "68 mm",
-    "image": "/assets/img/products/business_bakery/42880.webp",
+    "image": "/assets/img/products/all_products/42880.webp",
     "category": "3",
     "subCategory": "Descongelar y Comer"
   },
@@ -1771,7 +1771,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "275 mm",
-    "image": "/assets/img/products/business_bakery/42890.webp",
+    "image": "/assets/img/products/all_products/42890.webp",
     "category": "3",
     "subCategory": "Descongelar y Comer"
   },
@@ -1783,7 +1783,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "230 mm",
-    "image": "/assets/img/products/business_bakery/10494.webp",
+    "image": "/assets/img/products/all_products/10494.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -1795,7 +1795,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "355 mm",
-    "image": "/assets/img/products/business_bakery/68630.webp",
+    "image": "/assets/img/products/all_products/68630.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1807,7 +1807,7 @@
     "oven": "180º",
     "oventime": "20-25'",
     "length": "260 mm",
-    "image": "/assets/img/products/business_bakery/28270.webp",
+    "image": "/assets/img/products/all_products/28270.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -1819,7 +1819,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "92 mm",
-    "image": "/assets/img/products/business_bakery/20290.webp",
+    "image": "/assets/img/products/all_products/20290.webp",
     "category": "3",
     "subCategory": "Lista"
   },
@@ -1831,7 +1831,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "92 mm",
-    "image": "/assets/img/products/business_bakery/21290.webp",
+    "image": "/assets/img/products/all_products/21290.webp",
     "category": "3",
     "subCategory": "Lista"
   },
@@ -1843,7 +1843,7 @@
     "oven": "180º",
     "oventime": "24-0'",
     "length": "470 mm",
-    "image": "/assets/img/products/business_bakery/65475.webp",
+    "image": "/assets/img/products/all_products/65475.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1855,7 +1855,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "140 mm",
-    "image": "/assets/img/products/business_bakery/20341.webp",
+    "image": "/assets/img/products/all_products/20341.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1867,7 +1867,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "550 mm",
-    "image": "/assets/img/products/business_bakery/22091.webp",
+    "image": "/assets/img/products/all_products/22091.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1879,7 +1879,7 @@
     "oven": "180º",
     "oventime": "3-5'",
     "length": "118 mm",
-    "image": "/assets/img/products/business_bakery/61330.webp",
+    "image": "/assets/img/products/all_products/61330.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1891,7 +1891,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "550 mm",
-    "image": "/assets/img/products/business_bakery/43800.webp",
+    "image": "/assets/img/products/all_products/43800.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1903,7 +1903,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "530 mm",
-    "image": "/assets/img/products/business_bakery/22001.webp",
+    "image": "/assets/img/products/all_products/22001.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1915,7 +1915,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "93 mm",
-    "image": "/assets/img/products/business_bakery/65174.webp",
+    "image": "/assets/img/products/all_products/65174.webp",
     "category": "3",
     "subCategory": "Lista"
   },
@@ -1927,7 +1927,7 @@
     "oven": "0º",
     "oventime": "20-30'",
     "length": "94 mm",
-    "image": "/assets/img/products/business_bakery/65481.webp",
+    "image": "/assets/img/products/all_products/65481.webp",
     "category": "1",
     "subCategory": "Burger"
   },
@@ -1939,7 +1939,7 @@
     "oven": "180º",
     "oventime": "25-30'",
     "length": "180 mm",
-    "image": "/assets/img/products/business_bakery/25440.webp",
+    "image": "/assets/img/products/all_products/25440.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -1951,7 +1951,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "150 mm",
-    "image": "/assets/img/products/business_bakery/65810.webp",
+    "image": "/assets/img/products/all_products/65810.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -1963,7 +1963,7 @@
     "oven": "180º",
     "oventime": "20-25'",
     "length": "120 mm",
-    "image": "/assets/img/products/business_bakery/63420.webp",
+    "image": "/assets/img/products/all_products/63420.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -1975,7 +1975,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "105 mm",
-    "image": "/assets/img/products/business_bakery/66340.webp",
+    "image": "/assets/img/products/all_products/66340.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -1987,7 +1987,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "111 mm",
-    "image": "/assets/img/products/business_bakery/61750.webp",
+    "image": "/assets/img/products/all_products/61750.webp",
     "category": "2",
     "subCategory": "Lista"
   },
@@ -1999,7 +1999,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "76 mm",
-    "image": "/assets/img/products/business_bakery/29920.webp",
+    "image": "/assets/img/products/all_products/29920.webp",
     "category": "3",
     "subCategory": "Lista"
   },
@@ -2011,7 +2011,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "275 mm",
-    "image": "/assets/img/products/business_bakery/67325.webp",
+    "image": "/assets/img/products/all_products/67325.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -2023,7 +2023,7 @@
     "oven": "180º",
     "oventime": "15-18'",
     "length": "95 mm",
-    "image": "/assets/img/products/business_bakery/81872.webp",
+    "image": "/assets/img/products/all_products/81872.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2035,7 +2035,7 @@
     "oven": "180º",
     "oventime": "18-20'",
     "length": "28 mm",
-    "image": "/assets/img/products/business_bakery/63885.webp",
+    "image": "/assets/img/products/all_products/63885.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2047,7 +2047,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "125 mm",
-    "image": "/assets/img/products/business_bakery/61295.webp",
+    "image": "/assets/img/products/all_products/61295.webp",
     "category": "3",
     "subCategory": "Lista"
   },
@@ -2059,7 +2059,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "150 mm",
-    "image": "/assets/img/products/business_bakery/50364.webp",
+    "image": "/assets/img/products/all_products/50364.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2071,7 +2071,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "125 mm",
-    "image": "/assets/img/products/business_bakery/20480.webp",
+    "image": "/assets/img/products/all_products/20480.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -2083,7 +2083,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "111 mm",
-    "image": "/assets/img/products/business_bakery/60920.webp",
+    "image": "/assets/img/products/all_products/60920.webp",
     "category": "2",
     "subCategory": "Lista"
   },
@@ -2095,7 +2095,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "460 mm",
-    "image": "/assets/img/products/business_bakery/64970.webp",
+    "image": "/assets/img/products/all_products/64970.webp",
     "category": "1",
     "subCategory": "Cristalino"
   },
@@ -2107,7 +2107,7 @@
     "oven": "180º",
     "oventime": "20-25'",
     "length": "260 mm",
-    "image": "/assets/img/products/business_bakery/28250.webp",
+    "image": "/assets/img/products/all_products/28250.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2119,7 +2119,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "200 mm",
-    "image": "/assets/img/products/business_bakery/40604.webp",
+    "image": "/assets/img/products/all_products/40604.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2131,7 +2131,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "115 mm",
-    "image": "/assets/img/products/business_bakery/62045.webp",
+    "image": "/assets/img/products/all_products/62045.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2143,7 +2143,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "145 mm",
-    "image": "/assets/img/products/business_bakery/60496.webp",
+    "image": "/assets/img/products/all_products/60496.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -2155,7 +2155,7 @@
     "oven": "180º",
     "oventime": "15-17'",
     "length": "105 mm",
-    "image": "/assets/img/products/business_bakery/60131.webp",
+    "image": "/assets/img/products/all_products/60131.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -2167,7 +2167,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "200 mm",
-    "image": "/assets/img/products/business_bakery/61584.webp",
+    "image": "/assets/img/products/all_products/61584.webp",
     "category": "2",
     "subCategory": "Lista"
   },
@@ -2179,7 +2179,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "90 mm",
-    "image": "/assets/img/products/business_bakery/63650.webp",
+    "image": "/assets/img/products/all_products/63650.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -2191,7 +2191,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "160 mm",
-    "image": "/assets/img/products/business_bakery/60550.webp",
+    "image": "/assets/img/products/all_products/60550.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -2203,7 +2203,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "280 mm",
-    "image": "/assets/img/products/business_bakery/69660.webp",
+    "image": "/assets/img/products/all_products/69660.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -2215,7 +2215,7 @@
     "oven": "180º",
     "oventime": "18-20'",
     "length": "145 mm",
-    "image": "/assets/img/products/business_bakery/22180.webp",
+    "image": "/assets/img/products/all_products/22180.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -2227,7 +2227,7 @@
     "oven": "180º",
     "oventime": "0-2'",
     "length": "150 mm",
-    "image": "/assets/img/products/business_bakery/61390.webp",
+    "image": "/assets/img/products/all_products/61390.webp",
     "category": "2",
     "subCategory": "Lista"
   },
@@ -2239,7 +2239,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "570 mm",
-    "image": "/assets/img/products/business_bakery/66140.webp",
+    "image": "/assets/img/products/all_products/66140.webp",
     "category": "2",
     "subCategory": "Prefermentada"
   },
@@ -2251,7 +2251,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "75 mm",
-    "image": "/assets/img/products/business_bakery/65100.webp",
+    "image": "/assets/img/products/all_products/65100.webp",
     "category": "2",
     "subCategory": "Lista"
   },
@@ -2263,7 +2263,7 @@
     "oven": "180º",
     "oventime": "13-18'",
     "length": "145 mm",
-    "image": "/assets/img/products/business_bakery/28450.webp",
+    "image": "/assets/img/products/all_products/28450.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2275,7 +2275,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "250 mm",
-    "image": "/assets/img/products/business_bakery/61548.webp",
+    "image": "/assets/img/products/all_products/61548.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2287,7 +2287,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "10 mm",
-    "image": "/assets/img/products/business_bakery/62840.webp",
+    "image": "/assets/img/products/all_products/62840.webp",
     "category": "2",
     "subCategory": "Lista"
   },
@@ -2299,7 +2299,7 @@
     "oven": "180º",
     "oventime": "35-45'",
     "length": "250 mm",
-    "image": "/assets/img/products/business_bakery/63315.webp",
+    "image": "/assets/img/products/all_products/63315.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2311,7 +2311,7 @@
     "oven": "180º",
     "oventime": "13-17'",
     "length": "120 mm",
-    "image": "/assets/img/products/business_bakery/64490.webp",
+    "image": "/assets/img/products/all_products/64490.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2323,7 +2323,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "0 mm",
-    "image": "/assets/img/products/business_bakery/66440.webp",
+    "image": "/assets/img/products/all_products/66440.webp",
     "category": "5",
     "subCategory": "Lista"
   },
@@ -2335,7 +2335,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "265 mm",
-    "image": "/assets/img/products/business_bakery/47300.webp",
+    "image": "/assets/img/products/all_products/47300.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2347,7 +2347,7 @@
     "oven": "180º",
     "oventime": "0-0'",
     "length": "8 mm",
-    "image": "/assets/img/products/business_bakery/67123.webp",
+    "image": "/assets/img/products/all_products/67123.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -2359,7 +2359,7 @@
     "oven": "0º",
     "oventime": "0-20'",
     "length": "200 mm",
-    "image": "/assets/img/products/business_bakery/64150.webp",
+    "image": "/assets/img/products/all_products/64150.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -2371,7 +2371,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "165 mm",
-    "image": "/assets/img/products/business_bakery/68551.webp",
+    "image": "/assets/img/products/all_products/68551.webp",
     "category": "6",
     "subCategory": "Descongelar y Comer"
   },
@@ -2383,7 +2383,7 @@
     "oven": "180º",
     "oventime": "16-18'",
     "length": "265 mm",
-    "image": "/assets/img/products/business_bakery/10046.webp",
+    "image": "/assets/img/products/all_products/10046.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2395,7 +2395,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "65 mm",
-    "image": "/assets/img/products/business_bakery/40450.webp",
+    "image": "/assets/img/products/all_products/40450.webp",
     "category": "2",
     "subCategory": "Cruda/Hojaldre"
   },
@@ -2407,7 +2407,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "85 mm",
-    "image": "/assets/img/products/business_bakery/65845.webp",
+    "image": "/assets/img/products/all_products/65845.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -2419,7 +2419,7 @@
     "oven": "180º",
     "oventime": "15-20'",
     "length": "200 mm",
-    "image": "/assets/img/products/business_bakery/10041.webp",
+    "image": "/assets/img/products/all_products/10041.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2431,7 +2431,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "93 mm",
-    "image": "/assets/img/products/business_bakery/67990.webp",
+    "image": "/assets/img/products/all_products/67990.webp",
     "category": "6",
     "subCategory": "Descongelar y Comer"
   },
@@ -2443,7 +2443,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "125 mm",
-    "image": "/assets/img/products/business_bakery/60960.webp",
+    "image": "/assets/img/products/all_products/60960.webp",
     "category": "2",
     "subCategory": "Lista"
   },
@@ -2455,7 +2455,7 @@
     "oven": "200º",
     "oventime": "16-18'",
     "length": "460 mm",
-    "image": "/assets/img/products/business_bakery/500205.webp",
+    "image": "/assets/img/products/all_products/500205.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2467,7 +2467,7 @@
     "oven": "200º",
     "oventime": "18-20'",
     "length": "530 mm",
-    "image": "/assets/img/products/business_bakery/500408.webp",
+    "image": "/assets/img/products/all_products/500408.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2479,7 +2479,7 @@
     "oven": "200º",
     "oventime": "18-20'",
     "length": "270 mm",
-    "image": "/assets/img/products/business_bakery/500146.webp",
+    "image": "/assets/img/products/all_products/500146.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2491,7 +2491,7 @@
     "oven": "200º",
     "oventime": "18-20'",
     "length": "445 mm",
-    "image": "/assets/img/products/business_bakery/500131.webp",
+    "image": "/assets/img/products/all_products/500131.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2503,7 +2503,7 @@
     "oven": "200º",
     "oventime": "18-20'",
     "length": "515 mm",
-    "image": "/assets/img/products/business_bakery/500133.webp",
+    "image": "/assets/img/products/all_products/500133.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2515,7 +2515,7 @@
     "oven": "200º",
     "oventime": "12-15'",
     "length": "520 mm",
-    "image": "/assets/img/products/business_bakery/500114.webp",
+    "image": "/assets/img/products/all_products/500114.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2527,7 +2527,7 @@
     "oven": "200º",
     "oventime": "0-0'",
     "length": "162 mm",
-    "image": "/assets/img/products/business_bakery/500135.webp",
+    "image": "/assets/img/products/all_products/500135.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2539,7 +2539,7 @@
     "oven": "180º",
     "oventime": "12-15'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/600123.webp",
+    "image": "/assets/img/products/all_products/600123.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2551,7 +2551,7 @@
     "oven": "180º",
     "oventime": "15-18'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/601214.webp",
+    "image": "/assets/img/products/all_products/601214.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2563,7 +2563,7 @@
     "oven": "180º",
     "oventime": "15-18'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/601251.webp",
+    "image": "/assets/img/products/all_products/601251.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2575,7 +2575,7 @@
     "oven": "0º",
     "oventime": "0-0'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/600141.webp",
+    "image": "/assets/img/products/all_products/600141.webp",
     "category": "1",
     "subCategory": "Descongelar y Comer"
   },
@@ -2587,7 +2587,7 @@
     "oven": "180º",
     "oventime": "15-18'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/601215.webp",
+    "image": "/assets/img/products/all_products/601215.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2599,7 +2599,7 @@
     "oven": "180º",
     "oventime": "15-18'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/601221.webp",
+    "image": "/assets/img/products/all_products/601221.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2611,7 +2611,7 @@
     "oven": "180º",
     "oventime": "15-18'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/601210.webp",
+    "image": "/assets/img/products/all_products/601210.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2623,7 +2623,7 @@
     "oven": "180º",
     "oventime": "6-9'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/600146.webp",
+    "image": "/assets/img/products/all_products/600146.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2635,7 +2635,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/904330.webp",
+    "image": "/assets/img/products/all_products/904330.webp",
     "category": "4",
     "subCategory": "Pizzas"
   },
@@ -2647,7 +2647,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/904345.webp",
+    "image": "/assets/img/products/all_products/904345.webp",
     "category": "4",
     "subCategory": "Pizzas"
   },
@@ -2659,7 +2659,7 @@
     "oven": "180º",
     "oventime": "10-12'",
     "length": "100 mm",
-    "image": "/assets/img/products/business_bakery/904350.webp",
+    "image": "/assets/img/products/all_products/904350.webp",
     "category": "4",
     "subCategory": "Pizzas"
   },
@@ -2671,7 +2671,7 @@
     "oven": "180º",
     "oventime": "5-10'",
     "length": "470 mm",
-    "image": "/assets/img/products/business_bakery/901104.webp",
+    "image": "/assets/img/products/all_products/901104.webp",
     "category": "1",
     "subCategory": "Clasico"
   },
@@ -2683,7 +2683,7 @@
     "oven": "180º",
     "oventime": "4-6'",
     "length": "130 mm",
-    "image": "/assets/img/products/business_bakery/901116.webp",
+    "image": "/assets/img/products/all_products/901116.webp",
     "category": "2",
     "subCategory": "Clasico"
   }
