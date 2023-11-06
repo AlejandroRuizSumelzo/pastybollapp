@@ -1644,7 +1644,7 @@
     "subCategory": "Cruda/Hojaldre"
   },
   {
-    "name": "Flaura de Chocolate",
+    "name": "Flauta de Chocolate",
     "box": "160 u",
     "weight": "50 g",
     "defrost": "0-0",
@@ -1905,7 +1905,7 @@
     "length": "530 mm",
     "image": "/assets/img/products/all_products/22001.webp",
     "category": "1",
-    "subCategory": "Clasico"
+    "subCategory": "Clasic"
   },
   {
     "name": "Dots Hazelnut y Choco",
