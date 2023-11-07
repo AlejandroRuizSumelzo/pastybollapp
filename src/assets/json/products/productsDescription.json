@@ -37,14 +37,14 @@
   },
   {
     "box": "65 u",
-    "category": "2",
+    "category": "4",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/69650.webp",
     "length": "70 mm",
     "name": "Mini Luna Bacon Queso",
     "oven": "180º",
     "oventime": "12-15'",
-    "subCategory": "Cruda",
+    "subCategory": "",
     "weight": "40 g"
   },
   {
@@ -1225,14 +1225,14 @@
   },
   {
     "box": "38 u",
-    "category": "2",
+    "category": "4",
     "defrost": "15-30",
     "image": "/assets/img/products/all_products/60687.webp",
     "length": "140 mm",
     "name": "Hojaldre Queso y Bacon",
     "oven": "180-190º",
     "oventime": "18-20'",
-    "subCategory": "Cruda",
+    "subCategory": "",
     "weight": "120 g"
   },
   {
@@ -1561,14 +1561,14 @@
   },
   {
     "box": "40 u",
-    "category": "2",
+    "category": "4",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/60835.webp",
     "length": "132 mm",
     "name": "Gran Napolitana Jamon loncha y Queso",
     "oven": "180º",
     "oventime": "15-18'",
-    "subCategory": "Fermentada",
+    "subCategory": "",
     "weight": "145 g"
   },
   {
@@ -1628,8 +1628,8 @@
     "oventime": "15-20'",
     "length": "225 mm",
     "image": "/assets/img/products/all_products/74580.webp",
-    "category": "2",
-    "subCategory": "Lista"
+    "category": "4",
+    "subCategory": ""
   },
   {
     "name": "Herradura Chocolate Plus",
@@ -1736,8 +1736,8 @@
     "oventime": "12-15'",
     "length": "65 mm",
     "image": "/assets/img/products/all_products/10276.webp",
-    "category": "2",
-    "subCategory": "Cruda/Hojaldre"
+    "category": "4",
+    "subCategory": ""
   },
   {
     "name": "Surtido Minidelicias Saladas",
@@ -1748,8 +1748,8 @@
     "oventime": "12-15'",
     "length": "50 mm",
     "image": "/assets/img/products/all_products/00549.webp",
-    "category": "2",
-    "subCategory": "Cruda/Hojaldre"
+    "category": "4",
+    "subCategory": ""
   },
   {
     "name": "Berlinette Sucre",
@@ -1964,8 +1964,8 @@
     "oventime": "20-25'",
     "length": "120 mm",
     "image": "/assets/img/products/all_products/63420.webp",
-    "category": "2",
-    "subCategory": "Cruda/Hojaldre"
+    "category": "4",
+    "subCategory": ""
   },
   {
     "name": "Roulet Cheesecake",
@@ -2024,8 +2024,8 @@
     "oventime": "15-18'",
     "length": "95 mm",
     "image": "/assets/img/products/all_products/81872.webp",
-    "category": "2",
-    "subCategory": "Cruda/Hojaldre"
+    "category": "4",
+    "subCategory": ""
   },
   {
     "name": "Palmera Soft",
@@ -2040,7 +2040,7 @@
     "subCategory": "Cruda/Hojaldre"
   },
   {
-    "name": "Ciabella",
+    "name": "Ciambella",
     "box": "26 u",
     "weight": "116 g",
     "defrost": "0-20",
@@ -2052,7 +2052,7 @@
     "subCategory": "Lista"
   },
   {
-    "name": "Napolitada Chocolate",
+    "name": "Napolitana Chocolate",
     "box": "84 u",
     "weight": "130 g",
     "defrost": "0-0",
@@ -2132,8 +2132,8 @@
     "oventime": "10-12'",
     "length": "115 mm",
     "image": "/assets/img/products/all_products/62045.webp",
-    "category": "2",
-    "subCategory": "Cruda/Hojaldre"
+    "category": "4",
+    "subCategory": ""
   },
   {
     "name": "Fartons",
@@ -2168,8 +2168,8 @@
     "oventime": "0-0'",
     "length": "200 mm",
     "image": "/assets/img/products/all_products/61584.webp",
-    "category": "2",
-    "subCategory": "Lista"
+    "category": "6",
+    "subCategory": ""
   },
   {
     "name": "Mini Croissant Margarina",
@@ -2264,8 +2264,8 @@
     "oventime": "13-18'",
     "length": "145 mm",
     "image": "/assets/img/products/all_products/28450.webp",
-    "category": "2",
-    "subCategory": "Cruda/Hojaldre"
+    "category": "4",
+    "subCategory": ""
   },
   {
     "name": "Pan De Espelta",
@@ -2312,8 +2312,8 @@
     "oventime": "13-17'",
     "length": "120 mm",
     "image": "/assets/img/products/all_products/64490.webp",
-    "category": "2",
-    "subCategory": "Cruda/Hojaldre"
+    "category": "4",
+    "subCategory": ""
   },
   {
     "name": "Bizcocho Manzana y Canela",

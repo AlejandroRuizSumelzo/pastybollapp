@@ -2,43 +2,43 @@
   {
     "id": 1,
     "name": "Pan",
-    "description": "Variedad de panes frescos y deliciosos.",
+    "description": "Pan de calidad, tradición y sabor",
     "icon": "/assets/icon/bread.svg"
   },
   {
     "id": 2,
     "name": "Bollería Dulce",
-    "description": "Dulzura en cada bocado.",
+    "description": "Dulzura en cada bocado",
     "icon": "/assets/icon/cookie.svg"
   },
   {
     "id": 3,
     "name": "Dots",
-    "description": "El círculo de la felicidad.",
+    "description": "El círculo de la felicidad",
     "icon": "/assets/icon/donut.svg"
   },
   {
     "id": 4,
     "name": "Bollería Salada",
-    "description": "Deliciosos bocados salados recién preparados.",
+    "description": "El toque salado que necesitas",
     "icon": "/assets/icon/croissant.svg"
   },
   {
     "id": 5,
     "name": "Pizzas",
-    "description": "Pizzas artesanales con ingredientes frescos.",
+    "description": "Sabor italiano en cada bocado",
     "icon": "/assets/icon/pizza.svg"
   },
   {
     "id": 6,
     "name": "Pastelería LYKKE",
-    "description": "Mejor verlo que contarlo...",
+    "description": "Pastelería Gourmet para los Gourmets",
     "icon": "/assets/icon/lykke.svg"
   },
   {
     "id": 7,
     "name": "Sin Gluten",
     "description": "Descubre la libertad de ser celiaco",
-    "icon": "/assets/icon/lykke.svg"
+    "icon": "/assets/icon/gluten-free.svg"
   }
 ]
