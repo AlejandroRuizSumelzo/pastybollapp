@@ -1,1 +1,14 @@
-<p>pizza works!</p>
+<div class="pizza__container">
+  <div class="pizza__header">
+    <h1>PIZZA</h1>
+  </div>
+  <div class="pizza__category-container">
+    <div class="pizza__sub-category">
+      <ul>
+        <li><a (click)="showCards('5', '')">Pizza</a></li>
+      </ul>
+    </div>
+
+    <app-card class="pizza__card" [displayedData]="filteredProducts"></app-card>
+  </div>
+</div>

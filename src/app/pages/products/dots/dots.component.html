@@ -1,1 +1,14 @@
-<p>dots works!</p>
+<div class="dots__container">
+  <div class="dots__header">
+    <h1>DOTS</h1>
+  </div>
+  <div class="dots__category-container">
+    <div class="dots__sub-category">
+      <ul>
+        <li><a (click)="showCards('3', '')">Dots</a></li>
+      </ul>
+    </div>
+
+    <app-card class="dots__card" [displayedData]="filteredProducts"></app-card>
+  </div>
+</div>

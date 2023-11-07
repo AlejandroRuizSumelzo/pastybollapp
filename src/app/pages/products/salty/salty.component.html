@@ -1,0 +1,14 @@
+<div class="salty__container">
+    <div class="salty__header">
+      <h1>BOLLERÍA SALADA</h1>
+    </div>
+    <div class="salty__category-container">
+      <div class="salty__sub-category">
+        <ul>
+          <li><a (click)="showCards('4', '')">Bollería</a></li>
+        </ul>
+      </div>
+  
+      <app-card class="salty__card" [displayedData]="filteredProducts"></app-card>
+    </div>
+  </div>

@@ -1,1 +1,14 @@
-<p>lykke works!</p>
+<div class="lykke__container">
+  <div class="lykke__header">
+    <h1>PASTELERÍA LYKKE</h1>
+  </div>
+  <div class="lykke__category-container">
+    <div class="lykke__sub-category">
+      <ul>
+        <li><a (click)="showCards('6', '')">lykke</a></li>
+      </ul>
+    </div>
+
+    <app-card class="lykke__card" [displayedData]="filteredProducts"></app-card>
+  </div>
+</div>

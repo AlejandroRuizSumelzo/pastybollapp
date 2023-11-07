@@ -1,8 +1,8 @@
-.dots__container {
+.glutenfree__container {
   margin: 0 15%;
 }
 
-.dots__header {
+.glutenfree__header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,12 +10,12 @@
   text-align: center;
 }
 
-.dots__category-container {
+.glutenfree__category-container {
   display: flex;
   gap: 2rem;
 }
 
-.dots__sub-category {
+.glutenfree__sub-category {
   flex: 0 0 auto;
   flex-direction: column;
 
@@ -59,7 +59,7 @@
   }
 }
 
-.dots__card {
+.glutenfree__card {
   display: flex;
   flex-wrap: wrap;
   float: right;
@@ -67,15 +67,15 @@
 }
 
 @media (max-width: 425px) {
-  .dots__container {
+  .glutenfree__container {
     margin: 0 1%;
   }
 
-  .dots__category-container {
+  .glutenfree__category-container {
     gap: 1rem;
   }
 
-  .dots__sub-category {
+  .glutenfree__sub-category {
     ul {
       width: 9rem;
     }

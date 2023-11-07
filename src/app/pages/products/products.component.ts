@@ -82,13 +82,13 @@ export class ProductsComponent implements OnInit {
       case 3:
         return 'dots';
       case 4:
-        return 'dots';
+        return 'salty';
       case 5:
-        return 'kitchen';
-      case 6:
         return 'pizza';
-      case 7:
+      case 6:
         return 'lykke';
+      case 7:
+        return 'glutenfree';
       default:
         return '';
     }

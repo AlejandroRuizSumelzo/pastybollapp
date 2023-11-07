@@ -1,0 +1,83 @@
+.lykke__container {
+  margin: 0 15%;
+}
+
+.lykke__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.lykke__category-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.lykke__sub-category {
+  flex: 0 0 auto;
+  flex-direction: column;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 10rem;
+    background: #fff;
+  }
+
+  a {
+    display: block;
+    padding: 9px 10px 5px 10px;
+    border-bottom: 1px solid #e7e7e7;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+  }
+
+  a:hover,
+  a:active {
+    background: linear-gradient(to bottom, #d77f40 0%, #cb6015 100%);
+    color: #fff;
+  }
+
+  a:after {
+    content: "〉";
+    float: right;
+    font-weight: bold;
+    color: #808080;
+    font-size: 13px;
+    text-shadow: 1px 0 1px #808080;
+  }
+
+  a:hover:after {
+    color: #fff;
+    text-shadow: 1px 0 1px #fff;
+  }
+}
+
+.lykke__card {
+  display: flex;
+  flex-wrap: wrap;
+  float: right;
+  flex-grow: 1;
+}
+
+@media (max-width: 425px) {
+  .lykke__container {
+    margin: 0 1%;
+  }
+
+  .lykke__category-container {
+    gap: 1rem;
+  }
+
+  .lykke__sub-category {
+    ul {
+      width: 9rem;
+    }
+  }
+}

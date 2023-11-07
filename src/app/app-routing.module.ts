@@ -12,9 +12,10 @@ import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { BreadComponent } from './pages/products/bread/bread.component';
 import { BakeryComponent } from './pages/products/bakery/bakery.component';
 import { DotsComponent } from './pages/products/dots/dots.component';
-import { KitchenComponent } from './pages/products/kitchen/kitchen.component';
 import { PizzaComponent } from './pages/products/pizza/pizza.component';
 import { LykkeComponent } from './pages/products/lykke/lykke.component';
+import { SaltyComponent } from './pages/products/salty/salty.component';
+import { GlutenFreeComponent } from './pages/products/glutenfree/glutenfree.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -27,9 +28,10 @@ const routes: Routes = [
       { path: 'bread', component: BreadComponent },
       { path: 'bakery', component: BakeryComponent },
       { path: 'dots', component: DotsComponent },
-      { path: 'kitchen', component: KitchenComponent },
+      { path: 'salty', component: SaltyComponent },
       { path: 'pizza', component: PizzaComponent },
       { path: 'lykke', component: LykkeComponent },
+      { path: 'glutenfree', component: GlutenFreeComponent },
     ],
   },
   { path: 'contact', component: ContactComponent },

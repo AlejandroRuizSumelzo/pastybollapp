@@ -1,8 +1,8 @@
-.dots__container {
+.salty__container {
   margin: 0 15%;
 }
 
-.dots__header {
+.salty__header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,12 +10,12 @@
   text-align: center;
 }
 
-.dots__category-container {
+.salty__category-container {
   display: flex;
   gap: 2rem;
 }
 
-.dots__sub-category {
+.salty__sub-category {
   flex: 0 0 auto;
   flex-direction: column;
 
@@ -59,7 +59,7 @@
   }
 }
 
-.dots__card {
+.salty__card {
   display: flex;
   flex-wrap: wrap;
   float: right;
@@ -67,15 +67,15 @@
 }
 
 @media (max-width: 425px) {
-  .dots__container {
+  .salty__container {
     margin: 0 1%;
   }
 
-  .dots__category-container {
+  .salty__category-container {
     gap: 1rem;
   }
 
-  .dots__sub-category {
+  .salty__sub-category {
     ul {
       width: 9rem;
     }

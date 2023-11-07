@@ -1,0 +1,17 @@
+<div class="glutenfree__container">
+  <div class="glutenfree__header">
+    <h1>SIN GLUTEN</h1>
+  </div>
+  <div class="glutenfree__category-container">
+    <div class="glutenfree__sub-category">
+      <ul>
+        <li><a (click)="showCards('7', '')">glutenfree</a></li>
+      </ul>
+    </div>
+
+    <app-card
+      class="glutenfree__card"
+      [displayedData]="filteredProducts"
+    ></app-card>
+  </div>
+</div>

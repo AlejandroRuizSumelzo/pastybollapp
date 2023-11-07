@@ -28,9 +28,10 @@ import { BakeryComponent } from './pages/products/bakery/bakery.component';
 import { DotsComponent } from './pages/products/dots/dots.component';
 import { PizzaComponent } from './pages/products/pizza/pizza.component';
 import { LykkeComponent } from './pages/products/lykke/lykke.component';
-import { KitchenComponent } from './pages/products/kitchen/kitchen.component';
 import { FormsModule } from '@angular/forms';
 import { CardComponent } from './component/product-card/card/card.component';
+import { SaltyComponent } from './pages/products/salty/salty.component';
+import { GlutenFreeComponent } from './pages/products/glutenfree/glutenfree.component';
 
 @NgModule({
   declarations: [
@@ -54,8 +55,9 @@ import { CardComponent } from './component/product-card/card/card.component';
     DotsComponent,
     PizzaComponent,
     LykkeComponent,
-    KitchenComponent,
     CardComponent,
+    SaltyComponent,
+    GlutenFreeComponent,
   ],
   imports: [
     BrowserModule,

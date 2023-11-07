@@ -5,18 +5,18 @@ import { Product } from 'src/app/interface/product';
 const jsonFile = '/assets/json/products/productsDescription.json';
 
 @Component({
-  selector: 'app-dots',
-  templateUrl: './dots.component.html',
-  styleUrls: ['./dots.component.scss'],
+  selector: 'app-glutenfree',
+  templateUrl: './glutenfree.component.html',
+  styleUrls: ['./glutenfree.component.scss'],
 })
-export class DotsComponent {
+export class GlutenFreeComponent {
   filteredProducts: Product[] = [];
   constructor(private http: HttpClient) {}
 
   ngOnInit(): void {
     this.http.get<Product[]>(jsonFile).subscribe((jsonData: Product[]) => {
       this.filteredProducts = jsonData.filter(
-        (product) => product.category === '3'
+        (product) => product.category === '7'
       );
     });
   }

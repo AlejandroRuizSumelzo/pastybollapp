@@ -265,7 +265,7 @@
   },
   {
     "box": "1 u",
-    "category": "5",
+    "category": "6",
     "defrost": "120-180",
     "image": "/assets/img/products/all_products/66234.webp",
     "length": "320 mm",
@@ -277,7 +277,7 @@
   },
   {
     "box": "1 u",
-    "category": "5",
+    "category": "6",
     "defrost": "120-180",
     "image": "/assets/img/products/all_products/66254.webp",
     "length": "320 mm",
@@ -289,7 +289,7 @@
   },
   {
     "box": "1 u",
-    "category": "5",
+    "category": "6",
     "defrost": "120-180",
     "image": "/assets/img/products/all_products/66264.webp",
     "length": "320 mm",
@@ -301,7 +301,7 @@
   },
   {
     "box": "1 u",
-    "category": "5",
+    "category": "6",
     "defrost": "120-180",
     "image": "/assets/img/products/all_products/66274.webp",
     "length": "320 mm",
@@ -313,7 +313,7 @@
   },
   {
     "box": "1 u",
-    "category": "5",
+    "category": "6",
     "defrost": "120-180",
     "image": "/assets/img/products/all_products/66284.webp",
     "length": "320 mm",
@@ -325,7 +325,7 @@
   },
   {
     "box": "1 u",
-    "category": "5",
+    "category": "6",
     "defrost": "180-200",
     "image": "/assets/img/products/all_products/66440.webp",
     "length": "350 mm",
@@ -337,7 +337,7 @@
   },
   {
     "box": "1 u",
-    "category": "5",
+    "category": "6",
     "defrost": "180-200",
     "image": "/assets/img/products/all_products/66170.webp",
     "length": "350 mm",
@@ -349,7 +349,7 @@
   },
   {
     "box": "18 u",
-    "category": "6",
+    "category": "7",
     "defrost": "30-35",
     "image": "/assets/img/products/all_products/61021.webp",
     "length": "220 mm",
@@ -361,7 +361,7 @@
   },
   {
     "box": "30 u",
-    "category": "6",
+    "category": "7",
     "defrost": "30-35",
     "image": "/assets/img/products/all_products/61022.webp",
     "length": "220 mm",
@@ -541,7 +541,7 @@
   },
   {
     "box": "6 u",
-    "category": "4",
+    "category": "5",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/66387.webp",
     "length": "270 mm",
@@ -553,7 +553,7 @@
   },
   {
     "box": "6 u",
-    "category": "4",
+    "category": "5",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/66382.webp",
     "length": "270 mm",
@@ -565,7 +565,7 @@
   },
   {
     "box": "6 u",
-    "category": "4",
+    "category": "5",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/66383.webp",
     "length": "270 mm",
@@ -577,7 +577,7 @@
   },
   {
     "box": "6 u",
-    "category": "4",
+    "category": "5",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/66386.webp",
     "length": "270 mm",
@@ -589,7 +589,7 @@
   },
   {
     "box": "6 u",
-    "category": "4",
+    "category": "5",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/66388.webp",
     "length": "270 mm",
@@ -601,7 +601,7 @@
   },
   {
     "box": "6 u",
-    "category": "4",
+    "category": "5",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/66381.webp",
     "length": "270 mm",
@@ -613,7 +613,7 @@
   },
   {
     "box": "24 u",
-    "category": "5",
+    "category": "6",
     "defrost": "40-45",
     "image": "/assets/img/products/all_products/69522.webp",
     "length": "170 mm",
@@ -625,7 +625,7 @@
   },
   {
     "box": "25 u",
-    "category": "6",
+    "category": "7",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/62301.webp",
     "length": "72 mm",
@@ -637,7 +637,7 @@
   },
   {
     "box": "36 u",
-    "category": "6",
+    "category": "7",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/66280.webp",
     "length": "125 mm",
@@ -649,7 +649,7 @@
   },
   {
     "box": "50 u",
-    "category": "6",
+    "category": "7",
     "defrost": "20-30",
     "image": "/assets/img/products/all_products/62776.webp",
     "length": "85 mm",
@@ -1237,7 +1237,7 @@
   },
   {
     "box": "8 u",
-    "category": "5",
+    "category": "6",
     "defrost": "40-45",
     "image": "/assets/img/products/all_products/69422.webp",
     "length": "330 mm",
@@ -2280,7 +2280,7 @@
     "subCategory": "Clasico"
   },
   {
-    "name": "Tulipe Red Volver",
+    "name": "Tulipe Red Velvet",
     "box": "20 u",
     "weight": "110 g",
     "defrost": "35-45",
@@ -2324,7 +2324,7 @@
     "oventime": "0-0'",
     "length": "0 mm",
     "image": "/assets/img/products/all_products/66440.webp",
-    "category": "5",
+    "category": "6",
     "subCategory": "Lista"
   },
   {
@@ -2372,7 +2372,7 @@
     "oventime": "0-0'",
     "length": "165 mm",
     "image": "/assets/img/products/all_products/68551.webp",
-    "category": "6",
+    "category": "7",
     "subCategory": "Descongelar y Comer"
   },
   {
@@ -2432,7 +2432,7 @@
     "oventime": "0-0'",
     "length": "93 mm",
     "image": "/assets/img/products/all_products/67990.webp",
-    "category": "6",
+    "category": "7",
     "subCategory": "Descongelar y Comer"
   },
   {
@@ -2636,7 +2636,7 @@
     "oventime": "10-12'",
     "length": "100 mm",
     "image": "/assets/img/products/all_products/904330.webp",
-    "category": "4",
+    "category": "5",
     "subCategory": "Pizzas"
   },
   {
@@ -2648,7 +2648,7 @@
     "oventime": "10-12'",
     "length": "100 mm",
     "image": "/assets/img/products/all_products/904345.webp",
-    "category": "4",
+    "category": "5",
     "subCategory": "Pizzas"
   },
   {
@@ -2660,7 +2660,7 @@
     "oventime": "10-12'",
     "length": "100 mm",
     "image": "/assets/img/products/all_products/904350.webp",
-    "category": "4",
+    "category": "5",
     "subCategory": "Pizzas"
   },
   {
