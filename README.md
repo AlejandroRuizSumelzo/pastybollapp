@@ -37,7 +37,7 @@ src\app\pages
 src\assets\json
 
 Para subir cualquier cambio:
-Terminal -> Abrir terminal -> bash
+Terminal -> Nuevo terminal -> bash
 
 git add .
 git commit -m "El mensaje que quieras"
