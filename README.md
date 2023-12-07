@@ -35,3 +35,10 @@ src\app\pages
 ## Para consultar cada una de los JSON, y así cada uno de los productos:
 
 src\assets\json
+
+Para subir cualquier cambio:
+Terminal -> Abrir terminal -> bash
+
+git add .
+git commit -m "El mensaje que quieras"
+git push
